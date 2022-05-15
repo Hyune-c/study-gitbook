@@ -4,20 +4,20 @@
 
 ## Back End
 
-* [Java](back-end/java/README.md)
-  * [Copy](back-end/java/copy.md)
-  * [메모리 관리](back-end/java/undefined.md)
-  * [Garbage Collection](back-end/java/garbage-collection.md)
-  * [자료구조](back-end/java/undefined-1.md)
+* [Java](backend-roadmap/java/README.md)
+  * [Copy](backend-roadmap/java/copy.md)
+  * [메모리 관리](backend-roadmap/java-3/undefined.md)
+  * [Garbage Collection](backend-roadmap/java-1/garbage-collection.md)
+  * [자료구조](backend-roadmap/java-4/undefined.md)
 * [OS](back-end/os/README.md)
-  * [Process vs Thread](back-end/os/process-vs-thread.md)
-  * [Process](back-end/os/process.md)
+  * [Process vs Thread](backend-roadmap/os/process-vs-thread.md)
+  * [Process](backend-roadmap/os-1/process.md)
 * [Web](back-end/web/README.md)
-  * [HTTP vs HTTPS](back-end/web/http-vs-https.md)
-  * [HTTP 구성](back-end/web/http.md)
-  * [HTTP 그외](back-end/web/http-1.md)
-  * [TCP / UDP](back-end/web/tcp-vs-udp.md)
-  * [인터넷의 작동 원리](back-end/web/undefined.md)
+  * [HTTP vs HTTPS](backend-roadmap/web/http-vs-https.md)
+  * [HTTP 구성](backend-roadmap/web-1/http.md)
+  * [HTTP 그외](backend-roadmap/web-2/http.md)
+  * [TCP / UDP](backend-roadmap/web-4/tcp-vs-udp.md)
+  * [인터넷의 작동 원리](backend-roadmap/web-5/undefined.md)
 
 ## 이펙티브 자바 3판 <a href="#effective-java" id="effective-java"></a>
 
