@@ -9,7 +9,9 @@
 |            | Queue | FIFO(First In First Out) 구조     | ArrayDeque, PriorityQueue               |
 | Map        |       | Key 중복 불가, Key - Value 를 쌍으로 저장 | HashMap, HashTable, TreeMap, Properties |
 
-### TreeMap vs HashMap
+
+
+#### TreeMap vs HashMap
 
 |                        |      HashMap     |          TreeMap          |
 | ---------------------- | :--------------: | :-----------------------: |
@@ -25,7 +27,7 @@
 * TreeMap 이 NullKey 를 가질 수 없는 이유
   * Key 가 Null 이면 ordering 시 NullPointerException 이 발생합니다.
 
-### LinkedHashMap
+#### LinkedHashMap
 
 순서가 보장되는 HashMap
 

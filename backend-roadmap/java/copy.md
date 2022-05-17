@@ -1,18 +1,18 @@
 # Copy
 
-## Shallow Copy vs Deep Copy
+### Shallow Copy vs Deep Copy
 
-### 얕은 복사 Shallow Copy
+#### 얕은 복사 Shallow Copy
 
 * 주소를 복사합니다.
 * 한쪽의 수정이 이루어지면 다른 한 쪽에도 영향이 갑니다.
 
-### 깊은 복사 Deep Copy
+#### 깊은 복사 Deep Copy
 
 * 새로운 객체를 생성 합니다.
 * 서로 간 영향이 없습니다.
 
-## Java 에서 사용되는 Copy 메소드의 비교
+### Java 에서 사용되는 Copy 메소드의 비교
 
 | Method             | Primitive Type Copy | Non-Primitive Type Copy | Speed   |
 | ------------------ | ------------------- | ----------------------- | ------- |
@@ -24,12 +24,12 @@
 * Primitive Type 은 값 그 자체이기 때문에 Deep Copy 를 지원합니다.
 * Non-Primitive Type 은 주소를 복사하며 Swallow Copy 를 지원합니다.
 
-### clone()
+#### clone()
 
 clone() 은 shallow copy 를 지원합니다.\
 deep copy 를 위해서는 Cloneable 를 구현하거나 해주거나 new 를 통해 deep copy 를 해주어야 합니다.
 
-### 샘플 코드
+#### 샘플 코드
 
 * Cloneable 를 implements 하지 않은 사용자 정의 클래스
   * clone : shallow copy
