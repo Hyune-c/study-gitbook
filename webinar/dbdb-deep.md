@@ -1,3 +1,7 @@
+---
+description: 발표 자료가 1주일 후에 공개된다고 합니다. 그때 추가 작성 합니다.
+---
+
 # 요즘 힙한 스타트업의 DBDB DEEP한 이야기
 
 {% embed url="https://event-us.kr/smileshark/solution/44151" %}
@@ -5,7 +9,6 @@
 ### 1. AWS 아키텍처 전반 <a href="#1.-aws" id="1.-aws"></a>
 
 * 익히 알만한 아키텍처 내용이 주를 이뤘습니다.
-* 이것은 추후 전달될 장표로 대신합니다.
 
 ### 2. Datadog 기능 <a href="#2.-datadog" id="2.-datadog"></a>
 
