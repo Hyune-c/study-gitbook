@@ -14,6 +14,11 @@
   * [TCP / UDP](computer-science/web/tcp-vs-udp.md)
   * [인터넷의 작동 원리](computer-science/web/undefined.md)
 
+## Database
+
+* [MySQL](database/mysql/README.md)
+  * [SQL 문 수행 절차](database/mysql/sql.md)
+
 ## Language
 
 * [Java](language/java/README.md)
