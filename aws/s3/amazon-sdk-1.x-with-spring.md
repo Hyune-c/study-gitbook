@@ -56,15 +56,6 @@ protected PutObjectRequest createRequest(final String objectKey, final File file
     * **Content-Type** file이 아닌 stream으로 업로드 하는 경우 **application/octet-stream**가 지정됩니다.
 
 {% embed url="https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingMetadata.html" %}
-metadata
-{% endembed %}
-
-```
-CSV("text/csv; charset=UTF-8"),
-XLSX("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; charset=UTF-8"),
-XLS("application/vnd.ms-excel; charset=UTF-8"),
-HTML("text/html; charset=UTF-8");
-```
 
 #### PutObject - 객체 저장
 
