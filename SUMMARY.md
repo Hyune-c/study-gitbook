@@ -21,7 +21,7 @@
 ## AWS
 
 * [S3](aws/s3/README.md)
-  * [기초 지식](aws/s3/undefined.md)
+  * [용어](aws/s3/undefined.md)
   * [Amazon SDK 1.x with Spring](aws/s3/amazon-sdk-1.x-with-spring.md)
 * [DynamoDB](aws/dynamodb.md)
 
