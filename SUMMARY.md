@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome Hyune Wiki](README.md)
 
 ## Computer science
 
