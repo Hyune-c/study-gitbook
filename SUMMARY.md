@@ -2,6 +2,29 @@
 
 * [Welcome](README.md)
 
+## 실무 팁
+
+* [파일 조작하기](framework-and-library/spring/undefined.md)
+
+## Framework & Library
+
+* [Spring](framework/spring/README.md)
+  * [@Component vs @Configuration](framework/spring/component-vs-configuration.md)
+* [Logback](framework-and-library/logback/README.md)
+  * [기본 설정](framework-and-library/logback/undefined.md)
+
+## Database
+
+* [MySQL](database/mysql/README.md)
+  * [SQL 문 수행 절차](database/mysql/sql.md)
+
+## AWS
+
+* [S3](aws/s3/README.md)
+  * [기초 지식](aws/s3/undefined.md)
+  * [Amazon SDK 1.x with Spring](aws/s3/amazon-sdk-1.x-with-spring.md)
+* [DynamoDB](aws/dynamodb.md)
+
 ## Computer science
 
 * [OS](computer-science/os/README.md)
@@ -14,11 +37,6 @@
   * [TCP / UDP](computer-science/web/tcp-vs-udp.md)
   * [인터넷의 작동 원리](computer-science/web/undefined.md)
 
-## Database
-
-* [MySQL](database/mysql/README.md)
-  * [SQL 문 수행 절차](database/mysql/sql.md)
-
 ## Language
 
 * [Java](language/java/README.md)
@@ -26,13 +44,6 @@
   * [메모리 관리](language/java/undefined.md)
   * [Garbage Collection](language/java/garbage-collection.md)
   * [자료구조](language/java/undefined-1.md)
-
-## Framework & Library
-
-* [Spring](framework/spring/README.md)
-  * [@Component vs @Configuration](framework/spring/component-vs-configuration.md)
-* [Logback](framework-and-library/logback/README.md)
-  * [기본 설정](framework-and-library/logback/undefined.md)
 
 ## Book
 
@@ -64,7 +75,3 @@
 ## Webinar
 
 * [요즘 힙한 스타트업의 DBDB DEEP한 이야기](webinar/dbdb-deep.md)
-
-## 실무 팁
-
-* [파일 조작하기](undefined/undefined.md)
