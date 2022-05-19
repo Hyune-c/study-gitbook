@@ -1,0 +1,12 @@
+{
+	"plugins": [
+		"comments-footer"
+	],
+	"pluginsConfig": {
+		"comments-footer": {
+			"type": "github",
+			"repo": "Hyune-c/study-gitbook",
+			"copyright": "Copyright"
+		}
+	}
+}
