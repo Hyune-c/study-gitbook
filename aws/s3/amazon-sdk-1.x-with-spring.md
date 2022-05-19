@@ -2,7 +2,6 @@
 description: >-
   Amazon SDK 2.x 버전이 존재하지만 'Amazon S3 전송 관리자, Amazon SQS 클라이언트 측 버퍼링' 등 일부 기능이
   제한되어 있습니다.
-layout: landing
 ---
 
 # Amazon SDK 1.x with Spring
