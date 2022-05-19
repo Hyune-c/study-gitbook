@@ -1,4 +1,5 @@
 # Welcome
 
-개인 공부를 기록한 gitbook 입니다.\
-좀 더 가독성 좋은 자료는 [Github](https://github.com/Hyune-c)와 [Tistory](https://hyune-c.tistory.com/)를 참고해주세요!
+개발을 하면서 필요한 내용을 제 관점으로 기록하였기에 일부 내용은 가독성이 부족합니다.
+
+코멘트를 남겨주시면 좀 더 보완하겠습니다!
