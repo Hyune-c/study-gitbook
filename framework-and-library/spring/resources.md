@@ -1,4 +1,4 @@
-# resources에 있는 파일 가져오기
+# resources 경로에 있는 파일 가져오기
 
 * Java 활용
   * java.lang.ClassLoader
@@ -10,7 +10,7 @@ ClassLoader.getSystemResource("csv_s3_test.csv")
 
 
 
-* Spring 활
+* Spring 활용
   * org.springframework.util.ResourceUtils
 
 ```java
