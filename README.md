@@ -1,2 +1,3 @@
 # Welcome
 
+Welcome Hyune Wiki!
