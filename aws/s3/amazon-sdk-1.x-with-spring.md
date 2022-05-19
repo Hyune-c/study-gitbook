@@ -7,7 +7,7 @@ layout: landing
 
 # Amazon SDK 1.x with Spring
 
-#### AmazonS3 Bean 설
+#### AmazonS3 Bean 설정
 
 ```java
 @Configuration
@@ -36,7 +36,7 @@ public class AmazonS3Beans {
 * AWS 접근 방법을 하나로 통일시키기 위해 bean으로 설정할 수 있습니다.
   * 하나의 애플리케이션에서 복수 개의 AWS 접근 방법이 있다는 건 이상합니다.
 
-#### PutObjectRequest 생
+#### PutObjectRequest 생성
 
 ```java
 protected PutObjectRequest createRequest(final String objectKey, final File file, final CannedAccessControlList cannedAclHeader) {
