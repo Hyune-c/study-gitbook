@@ -31,7 +31,7 @@
 
 * [Spring](framework/spring/README.md)
   * [@Component vs @Configuration](framework/spring/component-vs-configuration.md)
-  * [resources 경로에 있는 파일 가져오기](framework-and-library/spring/resources.md)
+  * [파일 조작하기](framework-and-library/spring/undefined.md)
 * [Logback](framework-and-library/logback/README.md)
   * [기본 설정](framework-and-library/logback/undefined.md)
 
