@@ -31,7 +31,6 @@
 
 * [Spring](framework/spring/README.md)
   * [@Component vs @Configuration](framework/spring/component-vs-configuration.md)
-  * [파일 조작하기](framework-and-library/spring/undefined.md)
 * [Logback](framework-and-library/logback/README.md)
   * [기본 설정](framework-and-library/logback/undefined.md)
 
@@ -65,3 +64,7 @@
 ## Webinar
 
 * [요즘 힙한 스타트업의 DBDB DEEP한 이야기](webinar/dbdb-deep.md)
+
+## 실무 팁
+
+* [파일 조작하기](undefined/undefined.md)
