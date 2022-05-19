@@ -23,7 +23,7 @@
 * [S3](aws/s3/README.md)
   * [용어](aws/s3/undefined.md)
   * [Amazon SDK 1.x with Spring](aws/s3/amazon-sdk-1.x-with-spring.md)
-* [DynamoDB](aws/dynamodb/README.md)
+* [DynamoDB](aws/dynamodb.md)
   * [Get vs Query vs Scan](aws/dynamodb/get-vs-query-vs-scan.md)
 
 ## Computer science

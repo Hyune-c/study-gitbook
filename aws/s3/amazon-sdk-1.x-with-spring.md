@@ -59,6 +59,13 @@ protected PutObjectRequest createRequest(final String objectKey, final File file
 metadata
 {% endembed %}
 
+```
+CSV("text/csv; charset=UTF-8"),
+XLSX("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; charset=UTF-8"),
+XLS("application/vnd.ms-excel; charset=UTF-8"),
+HTML("text/html; charset=UTF-8");
+```
+
 #### PutObject - 객체 저장
 
 ```java
