@@ -37,6 +37,7 @@ description: 코드스쿼드 코드 리뷰어 활동간 리뷰이들에게 전�
 * try-catch문의 catch문을 의미있게 활용해주세요.
   * catch문에 log만 남기는 것은 적절한 활용이 아닙니다.
 * CustomException을 만들었다면 그것에 적합한 테스트를 만들어 주세요.
+  * 적절한 테스트를 만들 수 없다면 어쩌면 무의미한 CustomException일 수 있습니다.
 
 
 
