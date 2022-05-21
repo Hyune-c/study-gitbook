@@ -51,7 +51,7 @@ agent.region=NONE
 
 #### 스크립트 생성
 
-![스크립트 > 만들기 > 스크립트 만들기](<../.gitbook/assets/image (6).png>)
+![스크립트 > 만들기 > 스크립트 만들기](<../.gitbook/assets/image (6) (1).png>)
 
 * **google.com** 으로 샘플 스크립트를 만듭니다.
 
@@ -61,6 +61,8 @@ agent.region=NONE
 
 * **저장 후 시작**을 누르면 바로 실행 됩니다.
 * **Ramp-Up**을 활용하면 점진적으로 트래픽을 늘릴 수 있습니다.
+
+![테스트 결과](<../.gitbook/assets/image (6).png>)
 
 ### 기타
 
