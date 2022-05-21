@@ -6,7 +6,7 @@
 
 * [파일 조작하기](and/undefined.md)
 * [Codesquad Reviewer](and/codesquad-reviewer/README.md)
-  * [코드 리뷰를 받기에 앞서..](and/codesquad-reviewer/untitled.md)
+  * [코드 리뷰를 진행하기에 앞서..](and/codesquad-reviewer/untitled.md)
 
 ## Framework & Library
 
@@ -20,6 +20,7 @@
 
 * [MySQL](database/mysql/README.md)
   * [SQL 문 수행 절차](database/mysql/sql.md)
+  * [트랜잭션과 잠금](database/mysql/undefined.md)
 
 ## AWS
 
