@@ -14,8 +14,6 @@
 > java -jar ngrinder-controller-3.5.5-p1.war --port 7070  
 ```
 
-![](<../.gitbook/assets/image (5).png>)
-
 * [http://localhost:7070/login](http://localhost:7070/login)&#x20;
   * 초기 계정 정보 admin/admin
 
@@ -55,14 +53,14 @@ agent.region=NONE
 
 ![스크립트 > 만들기 > 스크립트 만들기](<../.gitbook/assets/image (6).png>)
 
-* `google.com` 으로 샘플 테스트를 만듭니다.
+* **google.com** 으로 샘플 스크립트를 만듭니다.
 
 #### 성능 테스트
 
 ![성능 테스트 > 테스트 생성](<../.gitbook/assets/image (9).png>)
 
-* `저장 후 시작`을 누르면 바로 실행 됩니다.
-* `Ramp-Up`을 활용하면 점진적으로 트래픽을 늘릴 수 있습니다.
+* **저장 후 시작**을 누르면 바로 실행 됩니다.
+* **Ramp-Up**을 활용하면 점진적으로 트래픽을 늘릴 수 있습니다.
 
 ### 기타
 
