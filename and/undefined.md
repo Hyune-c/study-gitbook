@@ -12,7 +12,7 @@ ClassLoader.getSystemResource("csv_s3_test.csv")
 final File file = ResourceUtils.getFile("classpath:csv_s3_test.csv");
 ```
 
-### 파일 확장자
+### 파일 확장자 가져오기
 
 ```java
 // org.springframework.util
