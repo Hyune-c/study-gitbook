@@ -5,6 +5,8 @@
 ## 실무 경험 & 팁
 
 * [파일 조작하기](and/undefined.md)
+* [Codesquad Reviewer](and/codesquad-reviewer/README.md)
+  * [코드 리뷰를 받기에 앞서..](and/codesquad-reviewer/untitled.md)
 
 ## Framework & Library
 
