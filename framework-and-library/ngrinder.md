@@ -4,7 +4,7 @@
 
 {% embed url="https://github.com/naver/ngrinder" %}
 
-### 1. Controller 세팅
+## 1. Controller 세팅
 
 ```shell
 // 1. controller 다운로드
@@ -17,7 +17,7 @@
 * [http://localhost:7070/login](http://localhost:7070/login)&#x20;
   * 초기 계정 정보 admin/admin
 
-### 2. Agent 세팅
+## 2. Agent 세팅
 
 ![admin > 에이전트 다운로드](<../.gitbook/assets/image (10).png>)
 
@@ -47,15 +47,15 @@ agent.controller_port=16001
 agent.region=NONE
 ```
 
-### 3. 테스트 준비 & 실행
+## 3. 테스트 준비 & 실행
 
-#### 스크립트 생성
+### 스크립트 생성
 
 ![스크립트 > 만들기 > 스크립트 만들기](<../.gitbook/assets/image (6) (1).png>)
 
 * **google.com** 으로 샘플 스크립트를 만듭니다.
 
-#### 성능 테스트
+### 성능 테스트
 
 ![성능 테스트 > 테스트 생성](<../.gitbook/assets/image (9).png>)
 
@@ -64,7 +64,7 @@ agent.region=NONE
 
 ![테스트 결과](<../.gitbook/assets/image (6).png>)
 
-### 기타
+## 기타
 
 * script 실행 중 Unsupported 에러가 발생하면 java version을 확인해봅시다.
   * 저는 java 17 버전을 쓰고 있었기에 에러가 발생했고, 11로 교체 후 정상 작동하였습니다.&#x20;
