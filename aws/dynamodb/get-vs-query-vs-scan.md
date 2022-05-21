@@ -6,18 +6,18 @@
 
 #### Query&#x20;
 
-* 추천하는 사용 방식!
-* 특정 파티션 키가 (인덱스) 있는 항목 조회
-  * 즉 한정적인 조건만 설정 가능하다.
+* 추천하는 사용 방식입니다.
+* 특정 파티션 키가 (인덱스) 있는 항목을 조회 가능합니다.
+  * 즉 한정적인 조건만 설정 가능합니다.
 * query 후 키를 정렬하고 데이터의 하위 집합만 가져오도록 조건을 적용할 수 있습니다.
-  * subquery 같은 것인듯?
+  * subquery 같은 개념인 것 같습니다.
 
 #### Scan
 
 * 가장 풍부한 조건 설정이 가능합니다.
-  * 하지만 모든 데이터를 로드시킨 후 함으로 리소스 부담이 큽니다.
+  * 하지만 모든 데이터가 로드되기에 리소스 부담이 큽니다.
   * DynamoDB는 데이터 로드량에 따라 비용이 청구됩니다.
-  * 따라서 충분히 작은 테이블에 대해서 정밀한 조건의 조회가 필요할 때만 써야됩니다.
+  * 따라서 충분히 작은 테이블에 대해 정밀한 조건 등 선별적으로 사용되어야 합니다.
 
 > 셋째, 스캔을 수행하는 워크로드는 순식간에 엄청난 비용이 들 수 있다. \
 > 이는 read capacity unit 이 실제로 읽은 바이트 수를 고려하기 때문
@@ -44,6 +44,6 @@
 {% embed url="https://stackoverflow.com/questions/27316643/how-to-get-item-count-from-dynamodb" %}
 
 * 페이지네이션
-  * `LastEvaluatedKey`를 통해 커서 기반 페이지네이션으로 구현합니다.
+  * `LastEvaluatedKey`를 통해 커서 기반 페이지네이션을 구현합니다.
 
 {% embed url="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Query.Pagination.html" %}
