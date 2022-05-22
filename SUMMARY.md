@@ -6,7 +6,7 @@
 
 * [파일 조작하기](and/undefined.md)
 * [Codesquad Reviewer](and/codesquad-reviewer/README.md)
-  * [코드 리뷰를 진행하기에 앞서..](and/codesquad-reviewer/untitled.md)
+  * [코드 리뷰를 진행하기에 앞서..](<and/codesquad-reviewer/Before proceeding with the code review.md>)
 
 ## Framework & Library
 
