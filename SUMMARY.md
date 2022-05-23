@@ -20,7 +20,7 @@
 
 * [MySQL](database/mysql/README.md)
   * [SQL 문 수행 절차](database/mysql/sql.md)
-  * [트랜잭션과 잠금](<database/mysql/transaction and lock.md>)
+  * [트랜잭션과 잠금](database/mysql/undefined.md)
   * [인덱스](database/mysql/index.md)
 
 ## AWS
