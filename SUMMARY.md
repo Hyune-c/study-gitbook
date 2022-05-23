@@ -5,8 +5,10 @@
 ## 실무 경험 & 팁
 
 * [파일 조작하기](and/undefined.md)
-* [Codesquad Reviewer](and/codesquad-reviewer/README.md)
-  * [코드 리뷰를 진행하기에 앞서..](<and/codesquad-reviewer/Before proceeding with the code review.md>)
+* [Codesquad](and/codesquad/README.md)
+  * [Reviewer](and/codesquad/reviewer/README.md)
+    * [코드 리뷰를 진행하기에 앞서..](<and/codesquad/reviewer/Before proceeding with the code review.md>)
+  * [Side Project](and/codesquad/side-project.md)
 
 ## Framework & Library
 
