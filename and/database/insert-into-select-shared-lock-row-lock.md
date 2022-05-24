@@ -10,9 +10,9 @@
 * `ROW단위`: 특정 데이터에만 `SHARED LOCK`이 걸리고, 다른데이터의 `CRUD`에는 영향이 없는가?
   * `SHARED LOCK`: 읽기 가능. 수정/삭제 불가
 
-## 테스트 시나리
+## 테스트 시나리오
 
-#### 기초 환경
+### 기초 환경
 
 * Transaction Mode: Manual
 
@@ -29,15 +29,15 @@ insert into test1 (col2) values ('aaa'),('bbb'),('ccc');
 select * from performance_schema.data_locks
 ```
 
-| Session 1                                                                           | Session 2                                                           | Description                                                                                                 |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| begin;                                                                              |                                                                     |                                                                                                             |
-| <p>insert into test2 </p><p>select * </p><p>from test1 </p><p>where col1 = '1';</p> |                                                                     | `LOCK_MODE` S,REC\_NOT\_GAP `LOCK_DATA` 1                                                                   |
-|                                                                                     | <p>update test1</p><p>set col2 = '1111'</p><p>where col1 = 2;</p>   | Session1과 관련 없는 데이터라 LOCK 걸리지 않고 성공                                                                         |
-|                                                                                     | <p>update test1 </p><p>set col2 = '1111' </p><p>where col1 = 1;</p> | <p>Session1과 관련 있는 데이터라 LOCK 획득 대기<br><br><code>LOCK_MODE</code> X,REC_NOT_GAP <code>LOCK_DATA</code> 1</p> |
-| commit;                                                                             |                                                                     | Session 2 성공                                                                                                |
+| Session 1                                                                           | Session 2                                                           | Description                                                                                                 |   |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | - |
+| begin;                                                                              |                                                                     |                                                                                                             |   |
+| <p>insert into test2 </p><p>select * </p><p>from test1 </p><p>where col1 = '1';</p> |                                                                     | `LOCK_MODE` S,REC\_NOT\_GAP `LOCK_DATA` 1                                                                   |   |
+|                                                                                     | <p>update test1</p><p>set col2 = '1111'</p><p>where col1 = 2;</p>   | Session1과 관련 없는 데이터라 LOCK 걸리지 않고 성공                                                                         |   |
+|                                                                                     | <p>update test1 </p><p>set col2 = '1111' </p><p>where col1 = 1;</p> | <p>Session1과 관련 있는 데이터라 LOCK 획득 대기<br><br><code>LOCK_MODE</code> X,REC_NOT_GAP <code>LOCK_DATA</code> 1</p> |   |
+| commit;                                                                             |                                                                     | Session 2 성공                                                                                                |   |
 
-#### 결
+### 결론
 
 * 락이 걸리지 않은 레코드에는 update가 가능하다.
 * S락이 걸린 레코드에 X락이 들어오면 S락이 해제될 때까지 기다린다.
@@ -68,15 +68,16 @@ select * from performance_schema.data_locks
 
 ## 테스트 시나리오 2
 
-* 기초환경 동
+### 기초환경 동일&#x20;
 
-| Session 1                                                                             | Session 2                                                            | Description                                                                                                 |
-| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| begin;                                                                                |                                                                      |                                                                                                             |
-| <p>insert into test2 </p><p>select * </p><p>from test1 </p><p>where col2 = 'bbb';</p> |                                                                      | <p><code>LOCK_MODE</code> S<br><code>LOCK_DATA</code> 1, 2, 3</p>                                           |
-|                                                                                       | <p>update test1</p><p>set col2 = 'fff'</p><p>where col2 = 'ccc';</p> | <p>획ㅡ </p><p><code>LOCK_MODE</code> X<br><code>LOCK_DATA</code> 1</p>                                       |
-|                                                                                       | <p>update test1 </p><p>set col2 = '1111' </p><p>where col1 = 1;</p>  | <p>Session1과 관련 있는 데이터라 LOCK 획득 대기<br><br><code>LOCK_MODE</code> X,REC_NOT_GAP <code>LOCK_DATA</code> 1</p> |
-| commit;                                                                               |                                                                      | Session 2 성공                                                                                                |
+| Session 1                                                                             | Session 2                                                            | Description                                                                   |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| begin;                                                                                |                                                                      |                                                                               |
+| <p>insert into test2 </p><p>select * </p><p>from test1 </p><p>where col2 = 'bbb';</p> |                                                                      | <p><code>LOCK_MODE</code> S<br><code>LOCK_DATA</code> 1, 2, 3</p>             |
+|                                                                                       | <p>update test1</p><p>set col2 = 'fff'</p><p>where col2 = 'ccc';</p> | <p>LOCK 획득 대기 </p><p><code>LOCK_MODE</code> X<br><code>LOCK_DATA</code> 1</p> |
+| commit;                                                                               |                                                                      | Session 2 성공                                                                  |
 
-#### 결
+### 결론&#x20;
+
+* index가 없다면&#x20;
 
