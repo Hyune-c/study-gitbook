@@ -202,16 +202,35 @@ where col2 = 'ccc';
 
 ![](<../../.gitbook/assets/image (10).png>)
 
-#### 3. Session 2 - Session 1 에서 S 락 걸고 있는 primaryKey 1 에 대해서 X 락 획득을 시도했지만 호환되지 않아 WAITING
+#### 3. Session 2&#x20;
+
+* `col2=bbb` X락 획득 시도
+* 하지만 **Session 1** 에서 S락을 걸고 있기에 호환되지 않아 WAITING.
 
 ```sql
 update test1
-set col2 = '1111'
-where col1 = 1;
+set col2 = 'ggg'
+where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (2).png>)
 
 #### 4. Session 1 commit, Session 2 commit
 
 ### 테스트 결과
+
+* 테스트 1과 같은 결과이지만 락이 걸리는 형태가 매우 다릅니다.
+
+## 최종 결론
+
+#### innoDB에서 unique index에 대한 `INSERT INTO SELECT SHARED LOCK` 는 레코드 락이 맞습니다.
+
+* 하지만 non unique index의 경우 락이 걸리는 형태가 매우 다릅니다.
+  * IS, IX, 갭 락등에 대한 공부가 부족해 어떤 차이가 있는지 잘 모르겠습니다.
+* 심지어 no index 인 경우는 전체 레코드 락으로 테이블 락과 같은 상태가 됩니다.
+
+#### 하지만 실무에서는 큰 문제가 없을 것으로 예상됩니다.
+
+* 실무에서 사용되는 테이블은 조회 조건에 대해 최소한 non unique index가 걸려있을 것이기 때문입니다.
+
+{% embed url="https://www.letmecompile.com/mysql-innodb-lock-deadlock/" %}
