@@ -6,10 +6,12 @@
 
 * [파일 조작하기](and/undefined.md)
 * [Codesquad](and/codesquad/README.md)
-  * [Reviewer](and/codesquad/reviewer/README.md)
+  * [Reviewer 활동](and/codesquad/reviewer/README.md)
     * [코드 리뷰를 진행하기에 앞서..](<and/codesquad/reviewer/Before proceeding with the code review.md>)
     * [Service는 어떤 dto를 반환해야 할까?](and/codesquad/reviewer/service-dto.md)
   * [Side Project](and/codesquad/side-project.md)
+* [Database](and/database/README.md)
+  * [INSERT INTO SELECT SHARED LOCK(row LOCK)](and/database/insert-into-select-shared-lock-row-lock.md)
 
 ## Framework & Library
 

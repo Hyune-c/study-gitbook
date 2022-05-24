@@ -22,4 +22,4 @@ public static String IMAGE_BASE_URL = "https://source.unsplash.com/featured";
 * 그래서 랜덤한 이미지를 가져오기 위해 `unsplash` 사이트를 이용했습니다.
   * [https://unsplash.com/](https://unsplash.com/)
   * 이미지의 `refresh time` 이 2.5 초 정도이기에 `sleep(2800)` 을 통해 가져왔습니다.
-* 총 1189 개 숙소 상세 정보, 4755 개 무작위 이미지 가져오기 성
+* 총 1189 개 숙소 상세 정보, 4755 개 무작위 이미지 가져오기 완료
