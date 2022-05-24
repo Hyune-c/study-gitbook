@@ -142,7 +142,7 @@ where col2 = 'ccc';
 
 ### 결과
 
-* index가 없다면 모든 레코드가 락에 걸립니다.
+* index가 없다면 모든 레코드가 락에 걸린다.
 
 ## 테스트 3
 
@@ -176,7 +176,7 @@ create index test1_col2_index on test1(col2); ## 인덱스 생성
 
 * `col2=bbb` S락 획득 시도
 * `primaryKey=3,4,5`  S락 획득 성공&#x20;
-* col2는 non unique index 이지만 `primaryKey=3,4`의 S락을 획득했습니다.
+* col2는 non unique index 이지만 `primaryKey=3,4` S락 획득 성공.
 * `primaryKey=5`도 S락이자 GAP락으로 획득했는데 이부분은 좀 더 공부해야됩니다.
 
 ```sql
@@ -228,11 +228,12 @@ where col2 = 'bbb';
 #### innoDB에서 unique index에 대한 `INSERT INTO SELECT SHARED LOCK` 는 레코드 락이 맞습니다.
 
 * 하지만 non unique index의 경우 락이 걸리는 형태가 매우 다릅니다.
-  * IS, IX, 갭 락등에 대한 공부가 부족해 어떤 차이가 있는지 잘 모르겠습니다.
+  * IS, IX, 갭 락등에 대한 공부가 부족해 정확히 어떤 차이가 있는지 잘 모르겠습니다.
 * 심지어 no index 인 경우는 전체 레코드 락으로 테이블 락과 같은 상태가 됩니다.
 
 #### 하지만 실무에서는 큰 문제가 없을 것으로 예상됩니다.
 
-* 실무에서 사용되는 테이블은 조회 조건에 대해 최소한 non unique index가 걸려있을 것이기 때문입니다.
+* 이 이슈가 생긴 것은 영업의 요청으로 인한 수기 작업 간 트랜잭션 조작을 잘못한 인적 실수가 더 큽니다.
+* 그리고 실무에서 사용되는 테이블은 조회 조건에 대해 최소한 non unique index가 걸려있을 것이기 때문입니다.
 
 {% embed url="https://www.letmecompile.com/mysql-innodb-lock-deadlock/" %}
