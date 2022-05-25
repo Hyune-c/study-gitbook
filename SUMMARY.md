@@ -17,6 +17,7 @@
 
 * [Spring](framework/spring/README.md)
   * [@Component vs @Configuration](framework/spring/component-vs-configuration.md)
+  * [@GeneratedValue](framework-and-library/spring/generatedvalue.md)
 * [Logback](framework-and-library/logback/README.md)
   * [기본 설정](framework-and-library/logback/undefined.md)
 * [nGrinder](framework-and-library/ngrinder.md)
