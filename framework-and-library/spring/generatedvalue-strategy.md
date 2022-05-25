@@ -30,6 +30,8 @@
 
 {% embed url="https://ngdeveloper.com/generationtype-identity-vs-generationtype-sequence-vs-generationtype-auto/" %}
 
+{% embed url="https://vladmihalcea.com/why-you-should-never-use-the-table-identifier-generator-with-jpa-and-hibernate/" %}
+
 ### SpringBoot 1.5.x와 2.0.x의 차이
 
 * Hibernate의 ID 생성 전략을 따라 갈지 말지 결정하는 useNewIdGeneratorMappings 프로퍼티가 false에서 true로 변경되었습니다.
