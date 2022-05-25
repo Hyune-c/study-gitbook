@@ -1,2 +1,2 @@
-# \`22 Reviewer 활동
+# Reviewer
 

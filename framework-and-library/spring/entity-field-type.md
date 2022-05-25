@@ -6,9 +6,9 @@
 > \
 > [https://docs.jboss.org/hibernate/orm/5.3/userguide/html\_single/Hibernate\_User\_Guide.html#entity-pojo-identifier](https://docs.jboss.org/hibernate/orm/5.3/userguide/html\_single/Hibernate\_User\_Guide.html#entity-pojo-identifier)
 
-* id를 primitive type으로 하면 id가 0인지, null인지 구분하기 힘듭니다.
-  * primitive type의 기본 값은 0이기에 0과 null을 구분할 수 없습니다.
-* 그렇기 때문에 null이 가능한 wrapper type을 활용해야 합니다.
+* id를 primitive type으로 하면 0과 null을 구분할 수 없습니다.
+  * primitive type의 기본 값이 0이기 때문입니다.
+* 그렇기 때문에 null이 허용되는 wrapper type을 활용해야 합니다.
 
 ### Except ID
 
