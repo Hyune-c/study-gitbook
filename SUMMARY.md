@@ -18,8 +18,9 @@
 
 * [Spring](framework/spring/README.md)
   * [@Component vs @Configuration](framework/spring/component-vs-configuration.md)
-  * [@GeneratedValue strategy](framework-and-library/spring/generatedvalue-strategy.md)
-  * [Entity의 field type](framework-and-library/spring/entity-field-type.md)
+* [JPA](framework-and-library/jpa/README.md)
+  * [@GeneratedValue strategy](framework-and-library/jpa/generatedvalue-strategy.md)
+  * [Entity의 field type](framework-and-library/jpa/entity-field-type.md)
 * [Logback](framework-and-library/logback/README.md)
   * [기본 설정](framework-and-library/logback/undefined.md)
 * [nGrinder](framework-and-library/ngrinder.md)
