@@ -2,10 +2,27 @@
 
 ### ID
 
+> The primary key, or the property or field of a composite primary key, must be one of the following Java language types:\
+> \- Java primitive types\
+> \- Java primitive wrapper type\
+> \- sjava.lang.String\
+> \- java.util.Date (the temporal type should be DATE)\
+> \- java.sql.Date\
+> \- java.math.BigDecimal\
+> \- java.math.BigInteger\
+> \
+> \- Java Persistence API 공식 문서에서\
+> [https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html#bnbqf](https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html#bnbqf)
+
+* JPA 공식 문서를 보면 primitive types 도 허용하고 있습니다.
+
+하지
+
 > We recommend that you declare consistently-named identifier attributes on persistent classes and that you use a nullable (i.e., non-primitive) type.\
 > \
 > [https://docs.jboss.org/hibernate/orm/5.3/userguide/html\_single/Hibernate\_User\_Guide.html#entity-pojo-identifier](https://docs.jboss.org/hibernate/orm/5.3/userguide/html\_single/Hibernate\_User\_Guide.html#entity-pojo-identifier)
 
+* Spring의 가장 일반적인 구현체인 Hibernate의 문서를 보면 명시적으로 non-primitive type의 사용을 권장하고 있습니다.
 * id를 primitive type으로 하면 0과 null을 구분할 수 없습니다.
   * primitive type의 기본 값이 0이기 때문입니다.
 * 그렇기 때문에 null이 허용되는 wrapper type을 활용해야 제대로 구분할 수 있습니다.
