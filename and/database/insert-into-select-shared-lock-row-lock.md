@@ -188,7 +188,7 @@ from test1
 where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (15) (1).png>)
 
 #### 2. Session 2&#x20;
 
@@ -215,7 +215,7 @@ set col2 = 'ggg'
 where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 #### 4. Session 1 commit, Session 2 commit
 

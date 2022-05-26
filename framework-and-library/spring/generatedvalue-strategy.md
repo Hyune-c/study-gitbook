@@ -34,11 +34,11 @@
 
 ### SpringBoot 1.5.x와 2.0.x의 차이
 
-> 식별자 생성 전략이 **GenerationType.IDENTITY**에서 **GenerationType.TABLE**으로 **** 변경되었습니다.
+> 식별자 생성 전략이 **GenerationType.IDENTITY**에서 **GenerationType.TABLE**으로 **** 변경되었습니다.\
+> 메이저 버전 업그레이드가 필요한 환경에서는 경험할 수 있었겠지만, 제가 일하는 환경은 이미 다 2.5.x 였기 때문에 지식으로만 알고 있습니다.
 
 * Spring Boot 2.x의 JPA 구현체인 Hibernate 5.0 기준, MySQL은 **GenerationType.TABLE** 전략이 선택됩니다.
 * Hibernate의 ID 생성 전략을 따라 갈지 말지 결정하는 **useNewIdGeneratorMappings 프로퍼티가 1.5.x 버전의 false에서 2.0.x 에는 true로 변경**되었습니다.
-* 따라서 식별자 생성 전략이 변경되었습니다.
-* 메이저 버전 업그레이드가 필요한 환경에서는 경험했다고 하지만 제가 일하는 환경은 이미 다 2.5.x 였기 때문에 지식으로만 알고 있습니다.
+* 즉 식별자 생성 전략이 JPA 구현체에 종속적이게 설정이 바뀌면서 **GenerationType.TABLE**이 선택 됩니다.
 
 {% embed url="https://jojoldu.tistory.com/295" %}

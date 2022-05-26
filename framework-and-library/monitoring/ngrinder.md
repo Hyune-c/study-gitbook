@@ -1,6 +1,6 @@
 # nGrinder
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 {% embed url="https://github.com/naver/ngrinder" %}
 
@@ -19,7 +19,7 @@
 
 ## 2. Agent 세팅
 
-![admin > 에이전트 다운로드](<../.gitbook/assets/image (10) (1).png>)
+![admin > 에이전트 다운로드](<../../.gitbook/assets/image (10) (1).png>)
 
 ```shell
 // 1. agent 다운로드 후 압축 해제
@@ -30,7 +30,7 @@
 > ./run_agent_bg.sh    // 백그라운드에서 기동 
 ```
 
-![admin > 에이전트 관리](<../.gitbook/assets/image (1).png>)
+![admin > 에이전트 관리](<../../.gitbook/assets/image (1) (1).png>)
 
 * agent가 정상적으로 기동되고 승인된 것을 확인할 수 있습니다. (진한 파란색 토큰)
 
@@ -51,18 +51,18 @@ agent.region=NONE
 
 ### 스크립트 생성
 
-![스크립트 > 만들기 > 스크립트 만들기](<../.gitbook/assets/image (6) (1) (1).png>)
+![스크립트 > 만들기 > 스크립트 만들기](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 * **google.com** 으로 샘플 스크립트를 만듭니다.
 
 ### 성능 테스트
 
-![성능 테스트 > 테스트 생성](<../.gitbook/assets/image (9).png>)
+![성능 테스트 > 테스트 생성](<../../.gitbook/assets/image (9) (1).png>)
 
 * **저장 후 시작**을 누르면 바로 실행 됩니다.
 * **Ramp-Up**을 활용하면 점진적으로 트래픽을 늘릴 수 있습니다.
 
-![테스트 결과](<../.gitbook/assets/image (6) (1).png>)
+![테스트 결과](<../../.gitbook/assets/image (6) (1).png>)
 
 ## 기타
 
