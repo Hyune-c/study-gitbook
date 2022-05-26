@@ -43,7 +43,7 @@ from test1
 where col1 = '1';
 ```
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (2).png>)
 
 #### 2. Session 2&#x20;
 
@@ -123,7 +123,7 @@ from test1
 where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 #### 2. Session 2
 
@@ -202,7 +202,7 @@ set col2 = 'fff'
 where col2 = 'ccc';
 ```
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 #### 3. Session 2&#x20;
 

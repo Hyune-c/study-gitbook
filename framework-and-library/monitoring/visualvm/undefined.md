@@ -12,7 +12,7 @@
 
 * `VisualVM excutable` 설치 경로 지정&#x20;
 
-![](<../../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (10).png>)
 
 ![](<../../../.gitbook/assets/image (1).png>)
 
