@@ -1,4 +1,4 @@
-# 많은 문자열 생성
+# 임의의 문자열 생성
 
 ```java
 // -Xmx512m -Xms512m
@@ -46,7 +46,7 @@ public class AddStringController {
 * `heap dump summary`
   * String이 다수를 차지하고 있음을 확인.
 
-![](<../../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (9) (1).png>)
 
 * `Objects - GC roots`
   * Retained가 압도적으로 높고 테스트를 위해 만든 클래스라는 것을 확인 완료.

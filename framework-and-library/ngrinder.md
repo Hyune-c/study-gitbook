@@ -1,6 +1,6 @@
 # nGrinder
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 {% embed url="https://github.com/naver/ngrinder" %}
 
@@ -57,7 +57,7 @@ agent.region=NONE
 
 ### 성능 테스트
 
-![성능 테스트 > 테스트 생성](<../.gitbook/assets/image (9) (1).png>)
+![성능 테스트 > 테스트 생성](<../.gitbook/assets/image (9) (1) (1).png>)
 
 * **저장 후 시작**을 누르면 바로 실행 됩니다.
 * **Ramp-Up**을 활용하면 점진적으로 트래픽을 늘릴 수 있습니다.

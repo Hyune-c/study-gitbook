@@ -4,7 +4,7 @@
 
 * visualVM. zip 다운로드 후 설치
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 * intellij plugin 설치&#x20;
 

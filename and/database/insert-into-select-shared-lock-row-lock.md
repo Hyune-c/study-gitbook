@@ -69,7 +69,7 @@ set col2 = '1111'
 where col1 = 1;
 ```
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 #### 4. Session 1 commit, Session 2 commit
 
@@ -123,7 +123,7 @@ from test1
 where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 #### 2. Session 2
 

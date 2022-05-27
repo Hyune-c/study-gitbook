@@ -1,6 +1,6 @@
 # HTTP 구성
 
-![](../../.gitbook/assets/2021-07-09-17-16-44.png)
+![](../../../.gitbook/assets/2021-07-09-17-16-44.png)
 
 * Header 와 Body 는 `CR(carriage return, 0x0d) + LF(line feed, 0x0a)` 를 기준으로 값이 나뉩니다.
 
