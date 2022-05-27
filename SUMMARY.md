@@ -58,6 +58,8 @@
     * [GET 메서드에 payload를 사용해도 되는가?](computer-science/web/rest-api/get-payload.md)
   * [TCP / UDP](computer-science/web/tcp-vs-udp.md)
   * [인터넷의 작동 원리](computer-science/web/undefined.md)
+* [Design Pattern](computer-science/design-pattern/README.md)
+  * [Builder Pattern](computer-science/design-pattern/builder-pattern.md)
 
 ## Language
 

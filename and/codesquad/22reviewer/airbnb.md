@@ -23,3 +23,9 @@
 {% content-ref url="../../../computer-science/web/rest-api/get-payload.md" %}
 [get-payload.md](../../../computer-science/web/rest-api/get-payload.md)
 {% endcontent-ref %}
+
+* `Builder Pattern 사용`에 대한 리뷰
+
+{% content-ref url="../../../computer-science/design-pattern/builder-pattern.md" %}
+[builder-pattern.md](../../../computer-science/design-pattern/builder-pattern.md)
+{% endcontent-ref %}
