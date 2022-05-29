@@ -70,32 +70,30 @@
   * [Garbage Collection](language/java/garbage-collection.md)
   * [자료구조](language/java/undefined-1.md)
 
-## Book
+## Book & Online Class
 
-* [이펙티브 자바 3판](book/effective-java/README.md)
-  * [2장 객체 생성과 파괴](book/effective-java/2/README.md)
-    * [아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라](book/effective-java/2/2.md)
-    * [아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라](book/effective-java/2/2-1.md)
-    * [아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라](book/effective-java/2/2-2.md)
-    * [아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라](book/effective-java/2/2-3.md)
-    * [아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](book/effective-java/2/2-4.md)
-    * [아이템 7. 다 쓴 객체 참조를 해제하라](book/effective-java/2/2-5.md)
-  * [3장 모든 객체의 공통 메서드](book/effective-java/3/README.md)
-    * [아이템 11. equals를 재정의하려거든 hashCode도 재정의하라](book/effective-java/3/3.md)
-    * [아이템 12. toString을 항상 재정의하라](book/effective-java/3/3-1.md)
-    * [아이템 14. Comparable을 구현할지 고려하라](book/effective-java/3/3-2.md)
-
-## Online Class
-
-* [한 번에 끝내는 Spring 완.전.판 초격차 패키지 Online](online-class/spring-complete-package/README.md)
-  * [AOP, Aspect Oriented Programming](online-class/spring-complete-package/aop.md)
-  * [Data Binding](online-class/spring-complete-package/data-binding.md)
-  * [IoC(Inversion of Control), DI(Dependency Injection)](online-class/spring-complete-package/ioc-and-di.md)
-  * [Null Safety](online-class/spring-complete-package/null-safety.md)
-  * [Spring Resource](online-class/spring-complete-package/resource.md)
-  * [Spring Boot 버전별 변화](online-class/spring-complete-package/spring-boot.md)
-  * [SpEL, Spring Expression Language](online-class/spring-complete-package/spring-expression-language.md)
-  * [Validation](online-class/spring-complete-package/validation.md)
+* [한 번에 끝내는 Spring 완.전.판 초격차 패키지 Online](book-and-online-class/spring-complete-package/README.md)
+  * [AOP, Aspect Oriented Programming](book-and-online-class/spring-complete-package/aop.md)
+  * [Data Binding](book-and-online-class/spring-complete-package/data-binding.md)
+  * [IoC(Inversion of Control), DI(Dependency Injection)](book-and-online-class/spring-complete-package/ioc-and-di.md)
+  * [Null Safety](book-and-online-class/spring-complete-package/null-safety.md)
+  * [Spring Resource](book-and-online-class/spring-complete-package/resource.md)
+  * [Spring Boot 버전별 변화](book-and-online-class/spring-complete-package/spring-boot.md)
+  * [SpEL, Spring Expression Language](book-and-online-class/spring-complete-package/spring-expression-language.md)
+  * [Validation](book-and-online-class/spring-complete-package/validation.md)
+* [이펙티브 자바 3판](book-and-online-class/effective-java/README.md)
+  * [2장 객체 생성과 파괴](book-and-online-class/effective-java/2/README.md)
+    * [아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라](book-and-online-class/effective-java/2/2.md)
+    * [아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라](book-and-online-class/effective-java/2/2-1.md)
+    * [아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라](book-and-online-class/effective-java/2/2-2.md)
+    * [아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라](book-and-online-class/effective-java/2/2-3.md)
+    * [아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](book-and-online-class/effective-java/2/2-4.md)
+    * [아이템 7. 다 쓴 객체 참조를 해제하라](book-and-online-class/effective-java/2/2-5.md)
+  * [3장 모든 객체의 공통 메서드](book-and-online-class/effective-java/3/README.md)
+    * [아이템 11. equals를 재정의하려거든 hashCode도 재정의하라](book-and-online-class/effective-java/3/3.md)
+    * [아이템 12. toString을 항상 재정의하라](book-and-online-class/effective-java/3/3-1.md)
+    * [아이템 14. Comparable을 구현할지 고려하라](book-and-online-class/effective-java/3/3-2.md)
+  * [4장 클래스와 인터페이스](book-and-online-class/effective-java/4.md)
 
 ## Webinar
 
