@@ -56,6 +56,7 @@
     * [HTTP 그외](computer-science/web/http-1.md)
   * [REST API](computer-science/web/rest-api/README.md)
     * [GET 메서드에 payload를 사용해도 되는가?](computer-science/web/rest-api/get-payload.md)
+    * [특정 목적의 API는 어떻게 만들어야 할까?](computer-science/web/rest-api/api.md)
   * [TCP / UDP](computer-science/web/tcp-vs-udp.md)
   * [인터넷의 작동 원리](computer-science/web/undefined.md)
 * [Design Pattern](computer-science/design-pattern/README.md)
