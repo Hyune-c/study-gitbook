@@ -30,3 +30,9 @@
 {% content-ref url="../../../computer-science/design-pattern/builder-pattern.md" %}
 [builder-pattern.md](../../../computer-science/design-pattern/builder-pattern.md)
 {% endcontent-ref %}
+
+* `API 설계는 어떻게 해야될까?`에 대한 리뷰
+
+{% content-ref url="../../../computer-science/web/rest-api/api.md" %}
+[api.md](../../../computer-science/web/rest-api/api.md)
+{% endcontent-ref %}
