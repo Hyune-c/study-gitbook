@@ -6,7 +6,7 @@
 [generatedvalue-strategy.md](../../../framework-and-library/spring/generatedvalue-strategy.md)
 {% endcontent-ref %}
 
-* `Entity의 field type은 무엇이 적절할까`에 대한 리뷰
+* `Entity의 field type은 무엇이 적절한가`에 대한 리뷰
 
 {% content-ref url="../../../framework-and-library/spring/entity-field-type.md" %}
 [entity-field-type.md](../../../framework-and-library/spring/entity-field-type.md)
@@ -31,7 +31,7 @@
 [builder-pattern.md](../../../computer-science/design-pattern/builder-pattern.md)
 {% endcontent-ref %}
 
-* `API 설계는 어떻게 해야될까?`에 대한 리뷰
+* `API 설계는 어떻게 해야 되는가?`에 대한 리뷰
 
 {% content-ref url="../../../computer-science/web/rest-api/api.md" %}
 [api.md](../../../computer-science/web/rest-api/api.md)
