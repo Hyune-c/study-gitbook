@@ -19,7 +19,7 @@
 
 ## 2. Agent 세팅
 
-![admin > 에이전트 다운로드](<../.gitbook/assets/image (10) (1) (1).png>)
+![admin > 에이전트 다운로드](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 ```shell
 // 1. agent 다운로드 후 압축 해제
@@ -30,7 +30,7 @@
 > ./run_agent_bg.sh    // 백그라운드에서 기동 
 ```
 
-![admin > 에이전트 관리](<../.gitbook/assets/image (1) (1).png>)
+![admin > 에이전트 관리](<../.gitbook/assets/image (1) (1) (1).png>)
 
 * agent가 정상적으로 기동되고 승인된 것을 확인할 수 있습니다. (진한 파란색 토큰)
 

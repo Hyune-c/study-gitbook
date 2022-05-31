@@ -59,6 +59,7 @@
     * [특정 목적의 API는 어떻게 만들어야 할까?](computer-science/web/rest-api/api.md)
   * [TCP / UDP](computer-science/web/tcp-vs-udp.md)
   * [인터넷의 작동 원리](computer-science/web/undefined.md)
+  * [OAuth 2.0](computer-science/web/oauth-2.0.md)
 * [Design Pattern](computer-science/design-pattern/README.md)
   * [Builder Pattern](computer-science/design-pattern/builder-pattern.md)
 

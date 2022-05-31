@@ -41,7 +41,7 @@ public class AddStringController {
 
 * OOM 발생
 
-![](<../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13) (1).png>)
 
 * `heap dump summary`
   * String이 다수를 차지하고 있음을 확인.
