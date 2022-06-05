@@ -1,4 +1,4 @@
-# 임의의 문자열 생성
+# 문자열 생성으로 테스트
 
 ```java
 // -Xmx512m -Xms512m
@@ -49,11 +49,10 @@ public class AddStringController {
 ![](<../../../.gitbook/assets/image (9) (1).png>)
 
 * `Objects - GC roots`
-  * Retained가 압도적으로 높고 테스트를 위해 만든 클래스라는 것을 확인 완료.
+  * Retained가 압도적으로 높고 테스트를 위해 만든 클래스에서 발생함을 확인 가능.
 
-### 남은 의문
+### 기타
 
-* `AddStringRunnable`의 `Thread.sleep(0);`를 0보다 큰 값으로 주면 정상 작동된다.
-  * 어떤 차이가 있는거지?
-* `GC roots`를 통해 어떤 클래스까지는 추적이 되지만, 정확히 어떤 메서드나 라인에서 발생했는지 추적하고 싶다.
-  * error trace처럼 자세하면 좋겠다.
+* 더 완벽한 로그를 위해서는 heap dump가 아닌 thread dump를 떠야 합니다.
+
+{% embed url="https://www.baeldung.com/java-thread-dump" %}
