@@ -21,7 +21,7 @@
 > \
 > [https://docs.jboss.org/hibernate/orm/5.3/userguide/html\_single/Hibernate\_User\_Guide.html#entity-pojo-identifier](https://docs.jboss.org/hibernate/orm/5.3/userguide/html\_single/Hibernate\_User\_Guide.html#entity-pojo-identifier)
 
-* 일반적인 구현체인 Hibernate의 문서를 보면 명시적으로 non-primitive type의 사용을 권장하고 있습니다.
+* 일반적인 구현체인 Hibernate의 문서에 명시적으로 non-primitive type의 사용을 권장하고 있습니다.
 * id를 primitive type으로 하면 0과 null을 구분할 수 없습니다.
   * primitive type의 기본 값이 0이기 때문입니다.
 * 그렇기 때문에 null이 허용되는 wrapper type을 활용해야 제대로 구분할 수 있습니다.
