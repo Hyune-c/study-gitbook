@@ -11,7 +11,6 @@
 > \- java.math.BigDecimal\
 > \- java.math.BigInteger\
 > \
-> \- Java Persistence API 공식 문서에서\
 > [https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html#bnbqf](https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html#bnbqf)
 
 * JPA 공식 문서를 보면 primitive types 도 허용하고 있습니다.
