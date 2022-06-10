@@ -19,7 +19,7 @@
 > 이것에 대해서는 이야기할 것이 꽤 많습니다. 지금에 맞는 것을 선별적으로 가져가시기를 권장합니다.
 
 * <mark style="color:purple;">필요성을 느끼지 못한다면 dto를 만들지 않는 것도 방법입니다.</mark>&#x20;
-  * <mark style="color:purple;">dto를 만드는 행위 자체도 성능과 유지보수 비용이 들기 때문입니다.</mark>
+  * <mark style="color:purple;">dto를 만드는 행위 자체도 성능과 유지보수 비용이 발생하기 때문입니다.</mark>
 
 {% embed url="https://martinfowler.com/bliki/LocalDTO.html" %}
 
@@ -31,7 +31,7 @@
     * <mark style="color:purple;">도메인 영역의 반환값을 entity로 할 수 있습니다.</mark>
   * <mark style="color:purple;">그러던 중 회사의 기술 스택이 바뀌어 JPA를 배제하게 되었습니다.</mark>
     * <mark style="color:purple;">이 때 entity를 걷어내야되는데,</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**영속성 레이어의 변화가 표현 레이어까지 영향을 주게 됩니다.**</mark>
-    * <mark style="color:purple;">지금은 웹만 개발하시지만, 동일한 도메인 로직으로 파일 형태로 표현해야 될 수도 있습니다.</mark>
+    * <mark style="color:purple;">동일한 도메인 로직으로 다른 표현을 했다면 그것에도 영향이 갑니다. (웹 -> 파일)</mark>
     * <mark style="color:purple;">만약 이것이 같은 회사에서만 쓴 것이 아니라 외부로 공개된 모듈이라면?</mark>&#x20;
       * <mark style="color:purple;">우리가 제어할 수 없는 고객사까지 모두 영향을 미치게 됩니다.</mark>
   * <mark style="color:purple;">현대의 애플리케이션은 매우 복잡하며, 도메인 로직이 풍부하고 중요합니다.</mark>
