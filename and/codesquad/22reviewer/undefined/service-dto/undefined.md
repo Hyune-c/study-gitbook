@@ -23,10 +23,27 @@
 
 {% embed url="https://martinfowler.com/bliki/LocalDTO.html" %}
 
-* 하지만&#x20;
+* <mark style="color:purple;">지금은 프로젝트 규모가 크지 않기에 범용dto의 의미가 크지 않습니다.</mark>
+  * <mark style="color:purple;">나아가</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**`@Transient`**</mark><mark style="color:purple;">를 통해 rich한 entity를 운영할 수도 있습니다.</mark>
+  * <mark style="color:purple;">그렇기에 더더욱 entity가 범용 dto를 대체할 수 있다고 느끼실 수 있습니다.</mark>
+* <mark style="color:purple;">그렇기에 조금 극단적인 예시를 통해 말하겠습니다.</mark>
+  * <mark style="color:purple;">회사가 매우 커져서 표, 도메인, 영속성 레이어를 각각 모듈화하였다고 가정합니다.</mark>
+    * <mark style="color:purple;">도메인 영역의 반환값을 entity로 할 수 있습니다.</mark>
+  * <mark style="color:purple;">그러던 중 회사의 기술 스택이 바뀌어 JPA를 배제하게 되었습니다.</mark>
+    * <mark style="color:purple;">이 때 entity를 걷어내야되는데,</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**영속성 레이어의 변화가 표현 레이어까지 영향을 주게 됩니다.**</mark>
+  * <mark style="color:purple;">만약 이것이 같은 회사에서만 쓴 것이 아니라 외부로 공개된 모듈이라면?</mark>&#x20;
+    * <mark style="color:purple;">우리가 제어할 수 없는 고객사까지 모두 영향을 미치게 됩니다.</mark>
+  * <mark style="color:purple;">현대의 애플리케이션은 매우 복잡하며, 도메인 로직이 풍부하고 중요합니다.</mark>
+    * <mark style="color:purple;">그리고 도메인 로직 외의 기술은 교체 가능 대상입니다.</mark>
+    * <mark style="color:purple;">따라서 도메인 로직은 특정 기술과 무관한 순수 자바로 작성하는 것을 추천합니다.</mark>
+* <mark style="color:purple;">하지만 이것은 매우 큰 회사에서 다수의 개발자가 동시에 개발하기 위한 방법입니다.</mark>
+  * <mark style="color:purple;">레이어가 엄격히 격리됩니다.</mark>
+  * <mark style="color:purple;">만약 이것을 공부하시려면</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**`육각형 아키텍처`**</mark><mark style="color:purple;">까지 보셔야 됩니다.</mark>
 
 #### 이러면 service 레이어에서 repository를 호출해 Entity를 얻고, 이 Entity를 그대로 반환하는 것과 어떠한 차이가 있을까? 의문이 들어서 질문 드리고 싶습니다.
 
-* <mark style="color:purple;">entity를 service 레이어의 반환형으로 사용하는 것은 기능상 가능하지만 꽤 어색합니다.</mark> \ <mark style="color:purple;">osiv를 공부해보시면 좋을 것 같습니다.</mark>
-* <mark style="color:purple;">레이어를 건너 뛰어버린다는 점에서는 일반적이지는 않습니다.</mark>[<mark style="color:purple;">https://youtu.be/RVO02Z1dLF8?list=PL1DJtS1Hv1PiGXmgruP1\_gM2TSvQiOsFL\&t=508</mark>](https://youtu.be/RVO02Z1dLF8?list=PL1DJtS1Hv1PiGXmgruP1\_gM2TSvQiOsFL\&t=508)<mark style="color:purple;"></mark>
+* <mark style="color:purple;">entity를 service 레이어의 반환형으로 사용하는 것은 기능상 가능합니다.</mark>\ <mark style="color:purple;">하지만 레이어를 건너 뛰어버린다는 점에서는 일반적이지 않고 어색합니다.</mark>
 
+{% embed url="https://youtu.be/RVO02Z1dLF8?list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&t=508" %}
+
+* <mark style="color:purple;">osiv를 공부해보시면 좋을 것 같습니다.</mark>
