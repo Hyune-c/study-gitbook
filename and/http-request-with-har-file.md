@@ -27,13 +27,15 @@ HAR File, HTTP Archive File
 * **Preserve log** 체크
 * 기존 기록이 있는 경우 **모든 기록 Clear**
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 #### 2. 작동 후 HAR file 생성
 
-![](<../.gitbook/assets/image (11).png>)
+* **Save All As HAR with Content** 또는 **Export HAR...** 선택
 
-#### 3. 생성된 HAR 파일을 본사로 전달
+![](<../.gitbook/assets/image (16).png>)
+
+#### 3. 생성된 HAR 파일을 전달
 
 ## HAR 파일 분석하기 by 개발자
 

@@ -52,7 +52,7 @@
 >
 > 하지만 이런 위임은 프론트엔드에 로직이 존재하게 하고, 높은 자유도는 로직의 파편화를 초래합니다.
 
-![https://www.kennethlange.com/backends-for-frontends-pattern/](<../../../.gitbook/assets/image (16) (1).png>)
+![https://www.kennethlange.com/backends-for-frontends-pattern/](<../../../.gitbook/assets/image (16) (1) (1).png>)
 
 * 가장 잘 알려진 방법은 BFF(Backend for Frontend) 입니다.
 * BFF는 각 마이크로 서비스에서 리소스를 가져온 후 니즈에 맞게 가공하는, 매핑 역할을 합니다.
