@@ -1,9 +1,5 @@
 # Service는 어떤 dto를 반환해야 할까?
 
-{% hint style="info" %}
-**\`22 온라인반찬 서비스** 리뷰 내용 중 일부 입니다.
-{% endhint %}
-
 ## 리뷰 대상 코드
 
 ```java
@@ -78,3 +74,7 @@ public Slice<DishListResponse> findDishesByCategory(String categoryName, Criteri
 * CQRS 패턴
 * BFF (백엔드 포 프론트)
 * 언제 올지 모르는 너무 먼 미래보다는 지금의 요건에 충실하게 만들자.
+
+{% content-ref url="../22reviewer/undefined/service-dto/undefined.md" %}
+[undefined.md](../22reviewer/undefined/service-dto/undefined.md)
+{% endcontent-ref %}

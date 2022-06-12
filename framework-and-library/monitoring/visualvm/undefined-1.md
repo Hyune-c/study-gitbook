@@ -37,11 +37,11 @@ public class AddStringController {
 }
 ```
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 * OOM 발생
 
-![](<../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1).png>)
 
 * `heap dump summary`
   * String이 다수를 차지하고 있음을 확인.

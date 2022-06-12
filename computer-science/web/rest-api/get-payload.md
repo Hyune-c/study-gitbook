@@ -24,7 +24,7 @@
 * 반면 엘라스틱서치에서는 대놓고 사용하기도 합니다.
   * [https://www.elastic.co/guide/en/elasticsearch/guide/current/\_empty\_search.html](https://www.elastic.co/guide/en/elasticsearch/guide/current/\_empty\_search.html)
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (14) (1).png>)
 
 {% embed url="https://developer.mozilla.org/ko/docs/Web/HTTP/Methods/GET" %}
 

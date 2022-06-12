@@ -1,6 +1,6 @@
 # 설치
 
-![](<../../../.gitbook/assets/image (15).png>)
+![](<../../../.gitbook/assets/image (15) (1).png>)
 
 * visualVM. zip 다운로드 후 설치
 
@@ -14,6 +14,6 @@
 
 ![](<../../../.gitbook/assets/image (10) (1).png>)
 
-![](<../../../.gitbook/assets/image (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1).png>)
 
 * 실행&#x20;

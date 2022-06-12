@@ -123,7 +123,7 @@ from test1
 where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (14) (1) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 #### 2. Session 2
 
@@ -188,7 +188,7 @@ from test1
 where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (15) (1).png>)
+![](<../../.gitbook/assets/image (15) (1) (1).png>)
 
 #### 2. Session 2&#x20;
 
