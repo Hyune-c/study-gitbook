@@ -6,8 +6,8 @@ HAR File, HTTP Archive File
 
 #### Datadog 등의 모니터링 솔루션으로도 부족한 사용자의 시도를 분석 가능합니다.
 
-* 재현 가능한 시도에 대해 크롬 베이스로 사용자 시도를 완벽히 기록합니다.
-* 불안정한 사용자 네트워크 환경도 고려할 수 있습니다.
+* 재현 가능한 시도에 대해 크롬 베이스로 사용자 시도를 완벽히 분석 가능합니다.
+* 불안정한 사용자 네트워크 환경도 분석할 수 있습니다.
 * 서버 통신이 실패한 로그도 기록되기에 유실이 없습니다.
 
 #### 비숙련자도 다룰 수 있을 정도로 쉽고 빠르고 간편합니다.
@@ -29,9 +29,9 @@ HAR File, HTTP Archive File
 
 ![](<../.gitbook/assets/image (16) (1).png>)
 
-#### 2. 작동 후 HAR file 생성
+#### 2. 문제 상황 재현 후 HAR file 생성
 
-* **Save All As HAR with Content** 또는 **Export HAR...** 선택
+* **Save All As HAR with Content** 또는 **Export HAR...** 를 통해 생
 
 ![](<../.gitbook/assets/image (16).png>)
 
