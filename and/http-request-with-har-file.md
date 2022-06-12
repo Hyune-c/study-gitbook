@@ -4,9 +4,7 @@
 HAR File, HTTP Archive File
 {% endhint %}
 
-## 장점
-
-#### Datadog 등의 모니터링 솔루션를 사용하더라도 부족한 사용자의 시도를 분석 가능합니다.
+#### Datadog 등의 모니터링 솔루션으로도 부족한 사용자의 시도를 분석 가능합니다.
 
 * 재현 가능한 시도에 대해 크롬 베이스로 사용자 시도를 완벽히 기록합니다.
 * 불안정한 사용자 네트워크 환경도 고려할 수 있습니다.
@@ -48,3 +46,7 @@ HAR File, HTTP Archive File
 #### 2. HAR 파일을 드래그 앤 드랍
 
 ![](<../.gitbook/assets/image (13).png>)
+
+## 참고 자료
+
+{% embed url="https://devroach.tistory.com/125" %}
