@@ -44,8 +44,7 @@
 #### 이러면 service 레이어에서 repository를 호출해 Entity를 얻고, 이 Entity를 그대로 반환하는 것과 어떠한 차이가 있을까? 의문이 들어서 질문 드리고 싶습니다.
 
 * <mark style="color:purple;">entity를 service 레이어의 반환형으로 사용하는 것은 기능상 가능합니다.</mark>\ <mark style="color:purple;">하지만 레이어를 건너 뛰어버린다는 점에서는 일반적이지 않고 어색합니다.</mark>
-* <mark style="color:purple;">안티 패턴 중 하나인 osiv 관련 내용을 공부해보시면 좋을 것 같습니다.</mark>
 
 {% embed url="https://youtu.be/RVO02Z1dLF8?list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&t=508" %}
 
-<mark style="color:purple;"></mark>
+* <mark style="color:purple;">osiv를 공부해보시면 좋을 것 같습니다.</mark>
