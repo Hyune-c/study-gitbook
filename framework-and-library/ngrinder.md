@@ -66,9 +66,14 @@ agent.region=NONE
 
 ## 기타
 
-* script 실행 중 Unsupported 에러가 발생하면 java version을 확인해봅시다.
-  * 저는 java 17 버전을 쓰고 있었기에 에러가 발생했고, 11로 교체 후 정상 작동하였습니다.&#x20;
+#### script 실행 중 Unsupported 에러가 발생하면 java version을 확인해봅시다.
+
+* 저는 java 17 버전을 쓰고 있었기에 에러가 발생했고, 11로 교체 후 정상 작동하였습니다.&#x20;
 
 ```
 General error during conversion: Unsupported class file major version 61
 ```
+
+#### 스크립트 생성시 참고
+
+{% embed url="https://adunhansa.tistory.com/327" %}
