@@ -56,7 +56,7 @@ set col2 = '1111'
 where col1 = 2;
 ```
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 #### 3. Session 2&#x20;
 
