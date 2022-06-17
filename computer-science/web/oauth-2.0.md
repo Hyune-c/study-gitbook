@@ -4,7 +4,7 @@
 
 > 권한 부여 승인 코드 방식
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 * 자체 생성한 권한 부여 승인 코드를(Authorization Code) 전달하는 방식으로 기본이 되는 방식입니다.&#x20;
   * Authorization Code 획득 후 해당 Code로 Access Token 획득해야 합니다.

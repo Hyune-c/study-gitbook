@@ -21,6 +21,8 @@ description: 코드스쿼드 코드 리뷰어 활동간 리뷰이들에게 전�
 
 {% embed url="http://haah.kr/2017/06/12/rest-the-big-lie/" %}
 
+![https://tech.kakaopay.com/post/msa-transaction/](<../../../.gitbook/assets/image (10).png>)
+
 * 토스ㅣSLASH 21 - 결제 시스템의 SDK와 API 디자인
   * [https://www.youtube.com/watch?v=E4\_0WWqmF3M](https://www.youtube.com/watch?v=E4\_0WWqmF3M)
 

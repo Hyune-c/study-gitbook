@@ -19,7 +19,7 @@
 
 ## 2. Agent 세팅
 
-![admin > 에이전트 다운로드](<../.gitbook/assets/image (10) (1) (1) (1).png>)
+![admin > 에이전트 다운로드](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
 
 ```shell
 // 1. agent 다운로드 후 압축 해제
