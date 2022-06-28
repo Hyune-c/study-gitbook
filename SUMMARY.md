@@ -12,7 +12,7 @@
       * [Service는 어떤 dto를 반환해야 할까?](and/codesquad/reviewer/service-dto.md)
         * [확장 질문](and/codesquad/22reviewer/undefined/service-dto/undefined.md)
     * [Airbnb](and/codesquad/22reviewer/airbnb.md)
-    * [Issue Tracker](and/codesquad/22reviewer/issue-tracker/README.md)
+    * [Issue Tracker](and/codesquad/22reviewer/issue-tracker.md)
       * [DB에서 TIMESTAMP와 DATETIME 타입의 차이](and/codesquad/22reviewer/issue-tracker/db-timestamp-datetime.md)
       * [한방 쿼리 vs 다수의 쿼리 조회 후 애플리케이션에서 조립](and/codesquad/22reviewer/issue-tracker/vs.md)
   * [Side Project](and/codesquad/side-project.md)
