@@ -44,3 +44,9 @@
 
 * 가장 비용이 큰 요청 중 하나인 DB I/O가 추가 발생합니다.
 * 코드량이 많아지고 도메인 로직이 튼튼하지 않다면 오히려 로직 파악이 어렵습니다.
+
+### 기타
+
+* 심화 질문에 대한 일부 리뷰
+
+{% embed url="https://github.com/codesquad-members-2022/issue-tracker/pull/217#discussion_r908033070" %}
