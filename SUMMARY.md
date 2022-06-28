@@ -14,7 +14,7 @@
     * [Airbnb](and/codesquad/22reviewer/airbnb.md)
     * [Issue Tracker](and/codesquad/22reviewer/issue-tracker.md)
       * [DB에서 TIMESTAMP와 DATETIME 타입의 차이](and/codesquad/22reviewer/issue-tracker/db-timestamp-datetime.md)
-      * [한방 쿼리 vs 다수의 쿼리 조회 후 애플리케이션에서 조립](and/codesquad/22reviewer/issue-tracker/vs.md)
+      * [한방 쿼리 vs 애플리케이션에서 조립](and/codesquad/22reviewer/issue-tracker/vs.md)
   * [Side Project](and/codesquad/side-project.md)
 * [Database](and/database/README.md)
   * [INSERT INTO SELECT SHARED LOCK(row LOCK)](and/database/insert-into-select-shared-lock-row-lock.md)
