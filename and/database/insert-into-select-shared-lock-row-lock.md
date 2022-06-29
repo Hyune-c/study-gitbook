@@ -97,7 +97,7 @@ where col1 = 1;
 * 이 내용을 읽고 앞의 테스트를 다시 보니
   * where 조건의 col1은 PK이기에 unique index로 이미 잡혀있어 단일 레코드락이 걸립니다.
   * 하지만 index가 없는 col2라면?
-  * col2에 non unique index를 걸고 조한다면?
+  * col2에 non unique index를 걸고 조회한다면?
 
 ## 테스트 2
 
