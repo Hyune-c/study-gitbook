@@ -5,7 +5,7 @@
 * 이 글은 블로그로 이관되었습니다.
 {% endhint %}
 
-{% embed url="https://hyune-c.tistory.com/entry/MySql%EC%9D%80-Record-Lock%EC%9C%BC%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80" %}
+{% embed url="https://hyune-c.tistory.com/entry/INSERT-INTO-SELECT-SHARED-LOCK%EC%9D%80-%EB%A0%88%EC%BD%94%EB%93%9C-%EB%9D%BD%EC%9C%BC%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80-with-MySql" %}
 
 ## 테스트 1
 
