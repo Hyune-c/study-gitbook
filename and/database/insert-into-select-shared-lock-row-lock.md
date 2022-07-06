@@ -1,8 +1,11 @@
 # INSERT INTO SELECT SHARED LOCK(row LOCK)
 
 {% hint style="info" %}
-마켓보로에서 일하면서 생긴 트랜잭션 문제에 대해 시니어님과 교류한 내용입니다.
+* 마켓보로에서 일하면서 생긴 트랜잭션 문제에 대해 시니어님과 교류한 내용입니다.
+* 이 글은 블로그로 이관되었습니다.
 {% endhint %}
+
+{% embed url="https://hyune-c.tistory.com/entry/MySql%EC%9D%80-Record-Lock%EC%9C%BC%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80" %}
 
 ## 테스트 1
 
