@@ -76,6 +76,7 @@
   * [메모리 관리](language/java/undefined.md)
   * [Garbage Collection](language/java/garbage-collection.md)
   * [자료구조](language/java/undefined-1.md)
+  * [Java 17](language/java/java-17.md)
 
 ## Book & Online Class
 
