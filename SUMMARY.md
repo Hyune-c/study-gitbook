@@ -7,7 +7,7 @@
 * [파일 조작하기](and/undefined.md)
 * [Codesquad](and/codesquad/README.md)
   * [코드 리뷰를 진행하기에 앞서..](<and/codesquad/reviewer/Before proceeding with the code review.md>)
-  * [\`22 Reviewer 활동](and/codesquad/reviewer/README.md)
+  * [Code Reviewer](and/codesquad/reviewer/README.md)
     * [반찬 가게](and/codesquad/22reviewer/undefined/README.md)
       * [Service는 어떤 dto를 반환해야 할까?](and/codesquad/reviewer/service-dto.md)
         * [확장 질문](and/codesquad/22reviewer/undefined/service-dto/undefined.md)
