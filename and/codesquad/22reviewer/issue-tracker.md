@@ -13,3 +13,15 @@
 * **UTC** 명시를 권장합니다.
 
 {% embed url="https://www.baeldung.com/java-time-zones" %}
+
+### DB에서 `TIMESTAMP`와 `DATETIME` 타입의 차이
+
+{% content-ref url="issue-tracker/db-timestamp-datetime.md" %}
+[db-timestamp-datetime.md](issue-tracker/db-timestamp-datetime.md)
+{% endcontent-ref %}
+
+### 한방 쿼리 vs 애플리케이션에서 조립
+
+{% content-ref url="issue-tracker/vs.md" %}
+[vs.md](issue-tracker/vs.md)
+{% endcontent-ref %}
