@@ -75,6 +75,6 @@ public Slice<DishListResponse> findDishesByCategory(String categoryName, Criteri
 * BFF (백엔드 포 프론트)
 * 언제 올지 모르는 너무 먼 미래보다는 지금의 요건에 충실하게 만들자.
 
-{% content-ref url="../22reviewer/undefined/service-dto/undefined.md" %}
-[undefined.md](../22reviewer/undefined/service-dto/undefined.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

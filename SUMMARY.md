@@ -2,20 +2,23 @@
 
 * [Welcome](README.md)
 
+## Code Reviewer & Mentoring
+
+* [코드 리뷰를 진행하기에 앞서..](code-reviewer-and-mentoring/before-proceeding-with-the-code-review.md)
+* [Codesquad](code-reviewer-and-mentoring/codesquad/README.md)
+  * [반찬 가게](code-reviewer-and-mentoring/codesquad/undefined/README.md)
+    * [Service는 어떤 dto를 반환해야 할까?](code-reviewer-and-mentoring/codesquad/undefined/service-dto/README.md)
+      * [확장 질문](code-reviewer-and-mentoring/codesquad/undefined/service-dto/undefined.md)
+  * [Airbnb](code-reviewer-and-mentoring/codesquad/airbnb.md)
+  * [Issue Tracker](code-reviewer-and-mentoring/codesquad/issue-tracker/README.md)
+    * [DB에서 TIMESTAMP와 DATETIME 타입의 차이](code-reviewer-and-mentoring/codesquad/issue-tracker/db-timestamp-datetime.md)
+    * [한방 쿼리 vs 애플리케이션에서 조립](code-reviewer-and-mentoring/codesquad/issue-tracker/vs.md)
+
 ## 실무 경험 & 팁
 
-* [파일 조작하기](and/undefined.md)
 * [Codesquad](and/codesquad/README.md)
-  * [Code Reviewer](and/codesquad/reviewer/README.md)
-    * [코드 리뷰를 진행하기에 앞서..](and/codesquad/22reviewer/before-proceeding-with-the-code-review.md)
-    * [반찬 가게](and/codesquad/22reviewer/undefined/README.md)
-      * [Service는 어떤 dto를 반환해야 할까?](and/codesquad/reviewer/service-dto.md)
-        * [확장 질문](and/codesquad/22reviewer/undefined/service-dto/undefined.md)
-    * [Airbnb](and/codesquad/22reviewer/airbnb.md)
-    * [Issue Tracker](and/codesquad/22reviewer/issue-tracker.md)
-      * [DB에서 TIMESTAMP와 DATETIME 타입의 차이](and/codesquad/22reviewer/issue-tracker/db-timestamp-datetime.md)
-      * [한방 쿼리 vs 애플리케이션에서 조립](and/codesquad/22reviewer/issue-tracker/vs.md)
   * [Side Project](and/codesquad/side-project.md)
+* [파일 조작하기](and/undefined.md)
 * [Database](and/database/README.md)
   * [INSERT INTO SELECT SHARED LOCK(row LOCK)](and/database/insert-into-select-shared-lock-row-lock.md)
 * [HTTP Request 추적하기 with HAR File](and/http-request-with-har-file.md)

@@ -16,12 +16,12 @@
 
 ### DB에서 `TIMESTAMP`와 `DATETIME` 타입의 차이
 
-{% content-ref url="issue-tracker/db-timestamp-datetime.md" %}
-[db-timestamp-datetime.md](issue-tracker/db-timestamp-datetime.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### 한방 쿼리 vs 애플리케이션에서 조립
 
-{% content-ref url="issue-tracker/vs.md" %}
-[vs.md](issue-tracker/vs.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

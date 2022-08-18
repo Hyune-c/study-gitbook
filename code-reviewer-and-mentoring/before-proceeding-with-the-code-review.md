@@ -19,7 +19,7 @@ description: 코드스쿼드 코드 리뷰어 활동간 리뷰이들에게 전�
   * OpenApi인 경우 사용 편의성을 위해 의도적으로 RESTful하지 않게 만드는 경우도 있습니다.
   * 토스 결제 API를 보면 수 많은 응답 코드 중에 **400, 401, 403**만 사용합니다.
 
-![https://tech.kakaopay.com/post/msa-transaction/](<../../../.gitbook/assets/image (10).png>)
+![https://tech.kakaopay.com/post/msa-transaction/](<../.gitbook/assets/image (10).png>)
 
 {% embed url="http://haah.kr/2017/06/12/rest-the-big-lie/" %}
 
