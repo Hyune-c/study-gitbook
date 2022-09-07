@@ -4,7 +4,7 @@
 
 ## Code Reviewer & Mentoring
 
-* [코드 리뷰를 진행하기에 앞서..](code-reviewer-and-mentoring/before-proceeding-with-the-code-review.md)
+* [진행하기에 앞서..](code-reviewer-and-mentoring/before-proceeding-with-the-code-review.md)
 * [Codesquad](code-reviewer-and-mentoring/codesquad/README.md)
   * [반찬 가게](code-reviewer-and-mentoring/codesquad/undefined/README.md)
     * [Service는 어떤 dto를 반환해야 할까?](code-reviewer-and-mentoring/codesquad/undefined/service-dto/README.md)
