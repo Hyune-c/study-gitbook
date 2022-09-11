@@ -18,10 +18,11 @@
 
 * [Codestates](codestates/README.md)
   * [2209 \~ 2210](codestates/2209-2210/README.md)
-    * [0주차 - 공통](codestates/2209-2210/0.md)
-    * [TEAM 22](codestates/2209-2210/team-22.md)
-    * [TEAM 23](codestates/2209-2210/team-23.md)
-    * [TEAM 24](codestates/2209-2210/team-24.md)
+    * [0주차](codestates/2209-2210/0.md)
+    * [1주차](codestates/2209-2210/1.md)
+    * [2주차](codestates/2209-2210/2.md)
+    * [3주차](codestates/2209-2210/3.md)
+    * [4주차](codestates/2209-2210/4.md)
 
 ## 실무 경험 & 팁
 
