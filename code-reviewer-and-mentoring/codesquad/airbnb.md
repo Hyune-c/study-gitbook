@@ -12,7 +12,7 @@
 [entity-field-type.md](../../framework-and-library/spring/entity-field-type.md)
 {% endcontent-ref %}
 
-### `@Controller` 클래스 레벨에 `@RequestMapping` 을 명시하는 것
+### @Controller 클래스 레벨에 @RequestMapping 을 명시하는 것
 
 `nit`
 
