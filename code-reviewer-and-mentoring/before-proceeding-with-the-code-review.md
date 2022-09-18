@@ -10,16 +10,22 @@
 
 #### 리얼 월드에 RESTful API 는 없다.
 
-* RESTful 한 API 설계는 클라이언트에게 자유도를 주기에 유연한 개발을 할 수 있습니다.
-* 하지만 리얼 월드에서는 의도적으로 RESTful 하지 않은 API 를 만드는 경우도 많습니다.
+* RESTful 한 API 설계는 리소스 단위의 접근으로 클라이언트에게 자유도를 주기에 유연한 개발을 할 수 있습니다.
+* 하지만 리얼 월드에서는 의도적으로 RESTful 하지 않은 API 를 만드는 경우가 많습니다.
   * OpenApi 의 경우 사용 편의성을 위해 의도적으로 RESTful 하지 않게 만듭니다.
-  * 토스 결제 API 를 보면 수 많은 응답 코드 중에 **400, 401, 403**만 사용합니다.
-
-![https://tech.kakaopay.com/post/msa-transaction/](<../.gitbook/assets/image (10).png>)
 
 {% embed url="http://haah.kr/2017/06/12/rest-the-big-lie/" %}
 
-{% embed url="https://www.youtube.com/watch?v=E4_0WWqmF3M" %}
+> 토스 결제 API 를 보면 [https://tossdev.github.io/api.html](https://tossdev.github.io/api.html)
+
+* GET, POST 메서드만 활용합니다.
+* 수 많은 에러응답 코드 중에 **400, 401, 403**만 사용합니다.
+
+{% embed url="https://youtu.be/E4_0WWqmF3M" %}
+
+> 카카오페이 결제 API 에도 비슷한 것이 있습니다. [https://tech.kakaopay.com/post/msa-transaction/](https://tech.kakaopay.com/post/msa-transaction/)
+
+![](<../.gitbook/assets/image (10).png>)
 
 #### 그럼에도 불구하고 공부 해야합니다.
 
