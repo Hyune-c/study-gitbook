@@ -30,7 +30,7 @@ test/2022-05-19T16:35:50Z_081249xxxxxxxxxxxxxxx/csv_s3_test.csv
 
 #### ACL - 액세스 제어 목록
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (6).png>)
 
 * S3의 모든 도메인에 대해 접근 제어가 가능합니다.
   * 객체에도 접근 제어할 수 있습니다.

@@ -4,7 +4,7 @@
 
 * MDN에는 GET에 payload를 허용하긴 하지만 권장하지 않는다고 합니다.
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (2).png>)
 
 * wikipedia에는 Optional로 작성되어 있습니다.
 

@@ -25,7 +25,7 @@
 
 > 카카오페이 결제 API 에도 비슷한 것이 있습니다. [https://tech.kakaopay.com/post/msa-transaction/](https://tech.kakaopay.com/post/msa-transaction/)
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (2).png>)
 
 #### 그럼에도 불구하고 공부 해야합니다.
 
@@ -101,6 +101,8 @@ PLATDEV-974 s3 다운로드 기능 구현
 
 {% embed url="http://www.yes24.com/Product/Goods/104084175" %}
 
+
+
 ### 문서 작업에 신경 써주세요.
 
 #### 문서 작성에 있어서는 금융권 API 연동 문서를 보기를 추천합니다.&#x20;
@@ -113,6 +115,8 @@ PLATDEV-974 s3 다운로드 기능 구현
 그들이 여러분의 코드에 매력을 느끼도록 좀 더 친절하게 작성해주세요.
 
 {% embed url="https://docs.tosspayments.com/reference" %}
+
+
 
 ### 리뷰 진행
 
