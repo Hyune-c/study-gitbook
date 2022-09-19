@@ -59,7 +59,7 @@ set col2 = '1111'
 where col1 = 2;
 ```
 
-![](<../../.gitbook/assets/image (5) (1) (2).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 #### 3. Session 2&#x20;
 
@@ -139,7 +139,7 @@ set col2 = 'fff'
 where col2 = 'ccc';
 ```
 
-![](<../../.gitbook/assets/image (6) (2).png>)
+![](<../../.gitbook/assets/image (6).png>)
 
 #### 3. Session 1 commit, Session 2 commit
 
@@ -218,7 +218,7 @@ set col2 = 'ggg'
 where col2 = 'bbb';
 ```
 
-![](<../../.gitbook/assets/image (2) (1) (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 #### 4. Session 1 commit, Session 2 commit
 

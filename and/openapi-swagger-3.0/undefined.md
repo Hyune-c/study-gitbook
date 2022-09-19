@@ -8,18 +8,16 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 다행히도 swagger 는 이를 위한 기능을 제공하고 있습니다.
 {% endhint %}
 
-### 진행 순서
+## 진행 순서
 
-#### 1. boot sample project with swagger
+### 1. boot sample project with swagger
 
 * 3개의 sample API 구현
 * sample respone spec 확인 가능
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-
-
-#### 2. export schema (json)
+### 2. export schema (json)
 
 * url 가져오기
   * `/v3/api-docs` 링크를 누르거나
@@ -33,17 +31,13 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 > swaggerUi.api.url
 ```
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
+### 3. check schema
 
+![](../../.gitbook/assets/image.png)
 
-#### 3. check schema
-
-![](<../../.gitbook/assets/image (17).png>)
-
-
-
-#### 4. schema to document
+### 4. schema to document
 
 * [https://editor.swagger.io/](https://editor.swagger.io/)
 * json 을 붙여넣기만 하면 완성!
@@ -52,9 +46,9 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 
 * 필요시 yml 전환 가능
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### 참고 자료
+## 참고 자료
 
 {% embed url="https://stackoverflow.com/questions/48525546/how-to-export-swagger-json-or-yaml" %}
 

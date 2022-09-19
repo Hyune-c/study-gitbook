@@ -8,7 +8,7 @@
 
 * intellij plugin 설치&#x20;
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (2).png>)
 
 * `VisualVM excutable` 설치 경로 지정&#x20;
 

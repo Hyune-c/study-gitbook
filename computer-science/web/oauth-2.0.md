@@ -39,7 +39,7 @@
 
 > &#x20;클라이언트 자격증명 승인 방식
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (2).png>)
 
 * 클라이언트의 자격 증명만으로 Access Token을 획득하는 방식입니다.
 * OAuth2의 권한 부여 방식 중 가장 간단한 방식입니다.
