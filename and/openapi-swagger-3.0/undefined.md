@@ -8,8 +8,6 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 다행히도 swagger 는 이를 위한 기능을 제공하고 있습니다.
 {% endhint %}
 
-## 진행 순서
-
 ### 1. boot sample project with swagger
 
 * 3개의 sample API 구현
@@ -48,7 +46,7 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-## 참고 자료
+### Reference
 
 {% embed url="https://stackoverflow.com/questions/48525546/how-to-export-swagger-json-or-yaml" %}
 
