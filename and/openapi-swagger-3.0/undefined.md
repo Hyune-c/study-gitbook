@@ -35,7 +35,7 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 
 ![](../../.gitbook/assets/image.png)
 
-### 4. schema to document
+### 4. convert to document
 
 * [https://editor.swagger.io/](https://editor.swagger.io/)
 * json 을 붙여넣기만 하면 완성!
