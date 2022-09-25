@@ -13,7 +13,7 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 * 3개의 sample API 구현
 * sample respone spec 확인 가능
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. export schema (json)
 

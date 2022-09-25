@@ -33,7 +33,7 @@ HAR File, HTTP Archive File
 
 * **Save All As HAR with Content** 또는 **Export HAR...** 를 통해 생
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (2).png>)
 
 #### 3. 생성된 HAR 파일을 전달
 
