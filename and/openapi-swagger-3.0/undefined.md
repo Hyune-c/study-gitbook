@@ -33,18 +33,18 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 
 ### 3. check schema
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 ### 4. convert to document
 
 * [https://editor.swagger.io/](https://editor.swagger.io/)
 * json 을 붙여넣기만 하면 완성!
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 * 필요시 yml 전환 가능
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Reference
 
