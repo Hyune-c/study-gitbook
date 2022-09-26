@@ -72,7 +72,7 @@ set col2 = '1111'
 where col1 = 1;
 ```
 
-![](<../../.gitbook/assets/image (3) (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 #### 4. Session 1 commit, Session 2 commit
 
