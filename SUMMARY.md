@@ -84,6 +84,7 @@
 * [Design Pattern](computer-science/design-pattern/README.md)
   * [Builder Pattern](computer-science/design-pattern/builder-pattern.md)
 * [MSA](computer-science/msa.md)
+* [DDD](computer-science/ddd.md)
 
 ## Language
 
