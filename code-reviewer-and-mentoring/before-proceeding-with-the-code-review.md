@@ -6,6 +6,10 @@
 그렇기에 멘티는 다양한 의견을 듣고 본인에 적합한 피드백을 스스로 선택하기를 기대합니다.
 {% endhint %}
 
+### 개발 환경 세팅 추
+
+{% embed url="https://hyune-c.tistory.com/29" %}
+
 ### REST API 설계를 어느 수준으로 해야될까
 
 #### 리얼 월드에 RESTful API 는 없다.
