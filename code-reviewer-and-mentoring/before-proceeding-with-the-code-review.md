@@ -6,6 +6,10 @@
 그렇기에 멘티는 다양한 의견을 듣고 본인에 적합한 피드백을 스스로 선택하기를 기대합니다.
 {% endhint %}
 
+{% embed url="https://velog.io/@joshuara7235/To.-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EA%BF%88%EA%BE%B8%EB%8A%94-%EB%B6%84%EB%93%A4%EC%97%90%EA%B2%8C-%EB%B6%80%EC%A0%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%82%B0%EB%8B%A4%EB%8A%94-%EA%B2%83%EC%9D%80" %}
+
+
+
 ### 개발 환경 세팅 추천
 
 {% embed url="https://hyune-c.tistory.com/29" %}
