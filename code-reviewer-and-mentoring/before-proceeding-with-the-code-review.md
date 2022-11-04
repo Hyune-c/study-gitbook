@@ -155,6 +155,9 @@ PLATDEV-974 s3 다운로드 기능 구현
 
 * Changes requested
   * 머지하기에 적합하지 않음.
-  * 충분한 대화와 수정 후 재 리뷰가 필요합니다.
+  * 충분한 대화와 수정 후 재 리뷰 가 필합니다.
 * Approved
   * 승인된 PR 은 작성자가 최종 확인 후 머지합니다.
+* Merged
+  * 머지된 PR 에서는 더 이상 conversation 을 진행하지 않습니다.&#x20;
+  * conversation 이 필요하다면 approved 상태이더라도 merge 하지 말거나, 별도의 채널로 질문해주세요.
