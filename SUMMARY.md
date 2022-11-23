@@ -23,6 +23,7 @@
     * [2주차](codestates/2209-2210/2.md)
     * [3주차](codestates/2209-2210/3.md)
     * [4주차](codestates/2209-2210/4.md)
+* [ETC](etc.md)
 
 ## 실무 경험 & 팁
 
