@@ -7,3 +7,7 @@
 {% embed url="https://wikidocs.net/book/7601" %}
 그냥 따라하기 좋은 자료
 {% endembed %}
+
+{% embed url="http://blog.hwahae.co.kr/all/tech/tech-tech/10639/" %}
+좋은 개발 문화
+{% endembed %}
