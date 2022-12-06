@@ -161,3 +161,10 @@ PLATDEV-974 s3 다운로드 기능 구현
 * Merged
   * 머지된 PR 에서는 더 이상 conversation 을 진행하지 않습니다.&#x20;
   * conversation 이 필요하다면 approved 상태이더라도 merge 하지 말거나, 별도의 채널로 질문해주세요.
+
+#### 자주 사용되는 관용어구를 알아주세요.
+
+* nit&#x20;
+  * 리뷰어들은 항상 무엇인가 더 나은 방법이 있을 수 있다는 의견을 자유롭게 남길 수 있어야 합니다. 그러나 그것이 그다지 중요하지 않다면 nit 와 같은 접두어를 붙여 코드 작성자가 선택할 수 있도록 해야 합니다.
+
+{% embed url="https://wnsgml972.github.io/devops/2020/05/17/CodeReview1/" %}
