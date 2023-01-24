@@ -45,6 +45,7 @@
 * [Spring](framework/spring/README.md)
   * [@Component vs @Configuration](framework/spring/component-vs-configuration.md)
 * [JPA](framework-and-library/jpa/README.md)
+  * [show-sql 설정의 단점](framework-and-library/jpa/show-sql.md)
   * [@GeneratedValue strategy](framework-and-library/spring/generatedvalue-strategy.md)
   * [Entity의 field type](framework-and-library/spring/entity-field-type.md)
 * [Logback](framework-and-library/logback/README.md)
