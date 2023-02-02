@@ -139,7 +139,7 @@ set col2 = 'fff'
 where col2 = 'ccc';
 ```
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (2).png>)
 
 #### 3. Session 1 commit, Session 2 commit
 
