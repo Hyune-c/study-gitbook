@@ -69,6 +69,11 @@
 // jira issue 번호를 커밋 메시지 앞에 기록
 PLATDEV-974 s3 다운로드 기능 구현 
 
+// jira issue 번호 구분 + 중분류 구분을 기록
+[PRECHARGE-270] 테스트 정상화 - yml 복구
+[PRECHARGE-270] 사용 처리 global lock - 테스트 코드 개선
+[PRECHARGE-377] 실시간 발행 api - web 구현
+
 // type을 이모지로 표현
 ✨ MemberWIthDynamicUpdate 구현
 ```
