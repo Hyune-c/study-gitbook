@@ -104,6 +104,8 @@ PLATDEV-974 s3 다운로드 기능 구현
 * 실무에서도 짧은 기간이나 팀 코딩 컨벤션에 따라 의도적으로 구조화하지 않는 경우도 있습니다.
 * 즉 기간이 한정되어 있고 요구 사항 변경이 적은 프로젝트라면 선택과 집중이 필요할 수 있습니다.
 
+{% embed url="https://overreacted.io/ko/goodbye-clean-code/" %}
+
 #### 관련 서적을 읽어주세요.
 
 {% embed url="http://www.yes24.com/Product/Goods/59626179" %}
