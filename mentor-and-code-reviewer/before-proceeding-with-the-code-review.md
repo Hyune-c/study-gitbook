@@ -106,6 +106,10 @@ PLATDEV-974 s3 다운로드 기능 구현
 
 {% embed url="https://overreacted.io/ko/goodbye-clean-code/" %}
 
+#### 기본기 향상에 집중해주세요.
+
+{% embed url="https://hyune-c.tistory.com/58" %}
+
 #### 관련 서적을 읽어주세요.
 
 {% embed url="http://www.yes24.com/Product/Goods/59626179" %}
