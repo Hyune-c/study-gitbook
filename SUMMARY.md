@@ -24,7 +24,7 @@
     * [3주차](codestates/2209-2210/3.md)
     * [4주차](codestates/2209-2210/4.md)
 * [Programmers](programmers/README.md)
-  * [2302 \[2기\]](programmers/2302-2.md)
+  * [우주 야구](programmers/undefined.md)
 * [ETC](etc.md)
 
 ## 실무 경험 & 팁
