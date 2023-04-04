@@ -5,26 +5,14 @@
 ## Mentor & Code Reviewer
 
 * [진행하기에 앞서..](mentor-and-code-reviewer/before-proceeding-with-the-code-review.md)
-* [Codesquad](mentor-and-code-reviewer/codesquad/README.md)
-  * [반찬 가게](mentor-and-code-reviewer/codesquad/undefined/README.md)
-    * [Service는 어떤 dto를 반환해야 할까?](mentor-and-code-reviewer/codesquad/undefined/service-dto/README.md)
-      * [확장 질문](mentor-and-code-reviewer/codesquad/undefined/service-dto/undefined.md)
-  * [Airbnb](mentor-and-code-reviewer/codesquad/airbnb.md)
-  * [Issue Tracker](mentor-and-code-reviewer/codesquad/issue-tracker/README.md)
-    * [DB에서 TIMESTAMP와 DATETIME 타입의 차이](mentor-and-code-reviewer/codesquad/issue-tracker/db-timestamp-datetime.md)
-    * [한방 쿼리 vs 애플리케이션에서 조립](mentor-and-code-reviewer/codesquad/issue-tracker/vs.md)
+* [Code Review History](mentor-and-code-reviewer/code-review-history/README.md)
+  * [한방 쿼리 vs 애플리케이션에서 조립](mentor-and-code-reviewer/code-review-history/vs.md)
+  * [DB에서 TIMESTAMP와 DATETIME 타입의 차이](mentor-and-code-reviewer/code-review-history/db-timestamp-datetime.md)
+  * [Service는 어떤 dto를 반환해야 할까?](mentor-and-code-reviewer/code-review-history/service-dto/README.md)
+    * [확장 질문](mentor-and-code-reviewer/code-review-history/service-dto/undefined.md)
 
 ***
 
-* [Codestates](codestates/README.md)
-  * [2209 \~ 2210](codestates/2209-2210/README.md)
-    * [0주차](codestates/2209-2210/0.md)
-    * [1주차](codestates/2209-2210/1.md)
-    * [2주차](codestates/2209-2210/2.md)
-    * [3주차](codestates/2209-2210/3.md)
-    * [4주차](codestates/2209-2210/4.md)
-* [Programmers](programmers/README.md)
-  * [우주 야구](programmers/undefined.md)
 * [ETC](etc.md)
 
 ## 실무 경험 & 팁
