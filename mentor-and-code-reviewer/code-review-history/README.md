@@ -10,7 +10,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 [generatedvalue-strategy.md](../../framework-and-library/spring/generatedvalue-strategy.md)
 {% endcontent-ref %}
 
-###
+
 
 ### Entity 의 field type 은 무엇이 적절한가?
 
@@ -18,7 +18,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 [entity-field-type.md](../../framework-and-library/spring/entity-field-type.md)
 {% endcontent-ref %}
 
-### ``
+``
 
 ### `@Controller` 클래스 레벨에 `@RequestMapping` 을 명시하는 것
 
@@ -27,7 +27,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 * 저는 RequestMapping을 클래스 레벨로 묶는 것을 선호하지 않습니다.
 * 경험상 에러가 발생하면 url을 통해 엔드포인트로 바로 가고 싶은 니즈가 있는데, 이렇게 분리되면 복붙이 불편했습니다.
 
-###
+
 
 ### GET 메서드에 payload 를 사용한 것
 
@@ -35,7 +35,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 [get-payload.md](../../computer-science/web/rest-api/get-payload.md)
 {% endcontent-ref %}
 
-###
+
 
 ### Builder Pattern 사용
 
@@ -43,7 +43,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 [builder-pattern.md](../../computer-science/design-pattern/builder-pattern.md)
 {% endcontent-ref %}
 
-###
+
 
 ### API 설계는 어떻게 해야 되는가?
 
@@ -51,7 +51,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 [api.md](../../computer-science/web/rest-api/api.md)
 {% endcontent-ref %}
 
-###
+
 
 ### 현재는 access token(JWT)만 내려주고 있지만, 추후에는 refresh token도 추가해 볼 생각입니다. 두 토큰이 똑같이 `authId`와 `expired_time`만을 갖게 하려고 했는데, access token과 refresh token과 차이를 나게하는 부분이 `expired_time`만 있게 해도 되는지 잘 모르겠습니다. (둘을 구분할 수 있는 속성이 더 있어야 하는지?)
 
@@ -294,7 +294,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 
 {% embed url="https://github.com/Programmers-Hyune-c/cosmic-baseball-init/pull/18#pullrequestreview-1280893817" %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -318,3 +318,13 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 {% embed url="https://stackoverflow.com/questions/55606889/is-it-best-practice-to-modify-the-production-code-to-be-testable-solely-for-te" %}
 
 {% embed url="https://smelting.tistory.com/76" %}
+
+
+
+### TDD 를 꼭 해야 되는 것인가?
+
+<img src="../../.gitbook/assets/image.png" alt="" data-size="original">
+
+변화가 너무 잦은 환경이라면 하지 않는 것도 방법이다.
+
+{% embed url="https://www.linkedin.com/posts/gyuwonyi_%EC%B2%9C%EC%95%88%EA%B0%80%EB%8A%94-%EB%B2%84%EC%8A%A4%EB%A5%BC-%EA%B8%B0%EB%8B%A4%EB%A6%AC%EB%A9%B0-%EB%8C%80%EA%B8%B0%EC%97%85-tdd-%EA%B0%95%EC%9D%98-%EC%9A%94%EC%B2%AD%EC%97%90-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%8B%B5%EC%9E%A5-%EB%A9%94%EC%9D%BC%EC%9D%84-%EC%9E%91%EC%84%B1%ED%96%88%EB%8B%A4-activity-7039886755776401408-IHBd?utm_source=share&utm_medium=member_desktop" %}
