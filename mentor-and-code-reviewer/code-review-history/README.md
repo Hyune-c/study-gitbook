@@ -18,7 +18,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 [entity-field-type.md](../../framework-and-library/spring/entity-field-type.md)
 {% endcontent-ref %}
 
-``
+
 
 ### `@Controller` 클래스 레벨에 `@RequestMapping` 을 명시하는 것
 

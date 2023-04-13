@@ -53,13 +53,15 @@
   * [트랜잭션과 잠금](database/mysql/undefined.md)
   * [인덱스](database/mysql/index.md)
 
-## AWS
+## Infrastructure
 
-* [S3](aws/s3/README.md)
-  * [용어](aws/s3/undefined.md)
-  * [Amazon SDK 1.x with Spring](aws/s3/amazon-sdk-1.x-with-spring.md)
-* [DynamoDB](aws/dynamodb.md)
-  * [Get vs Query vs Scan](aws/dynamodb/get-vs-query-vs-scan.md)
+* [AWS](infrastructure/aws/README.md)
+  * [S3](infrastructure/aws/s3/README.md)
+    * [용어](infrastructure/aws/s3/undefined.md)
+    * [Amazon SDK 1.x with Spring](infrastructure/aws/s3/amazon-sdk-1.x-with-spring.md)
+  * [DynamoDB](infrastructure/aws/dynamodb/README.md)
+    * [Get vs Query vs Scan](infrastructure/aws/dynamodb/get-vs-query-vs-scan.md)
+* [Docker & Kubernetes](infrastructure/docker-and-kubernetes.md)
 
 ## Computer science
 
