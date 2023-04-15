@@ -74,7 +74,3 @@ public Slice<DishListResponse> findDishesByCategory(String categoryName, Criteri
 * CQRS 패턴
 * BFF (백엔드 포 프론트)
 * 언제 올지 모르는 너무 먼 미래보다는 지금의 요건에 충실하게 만들자.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
