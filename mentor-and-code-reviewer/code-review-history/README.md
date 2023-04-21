@@ -328,3 +328,17 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 <img src="../../.gitbook/assets/image.png" alt="" data-size="original">
 
 {% embed url="https://www.linkedin.com/posts/gyuwonyi_%EC%B2%9C%EC%95%88%EA%B0%80%EB%8A%94-%EB%B2%84%EC%8A%A4%EB%A5%BC-%EA%B8%B0%EB%8B%A4%EB%A6%AC%EB%A9%B0-%EB%8C%80%EA%B8%B0%EC%97%85-tdd-%EA%B0%95%EC%9D%98-%EC%9A%94%EC%B2%AD%EC%97%90-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%8B%B5%EC%9E%A5-%EB%A9%94%EC%9D%BC%EC%9D%84-%EC%9E%91%EC%84%B1%ED%96%88%EB%8B%A4-activity-7039886755776401408-IHBd?utm_source=share&utm_medium=member_desktop" %}
+
+
+
+### RequestMapping 의 value 표현에 대해
+
+```java
+@GetMapping("/")
+@GetMapping("")
+@GetMapping
+```
+
+SpringBoot 2 (Spring 5) 까지는 큰 문제가 없지만 SpringBoot 3 (Spring 6) 부터는 문제가 될 수 있습니다.
+
+{% embed url="https://www.baeldung.com/spring-boot-3-url-matching" %}
