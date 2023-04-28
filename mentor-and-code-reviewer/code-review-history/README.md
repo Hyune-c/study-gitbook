@@ -73,19 +73,15 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 
 ### DB에서 `TIMESTAMP`와 `DATETIME` 타입의 차이
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% embed url="https://hyune.gitbook.io/hyune-wiki/mentor-and-code-reviewer/code-review-history/db-timestamp-datetime" %}
 
-###
+
 
 ### 한방 쿼리 vs 애플리케이션에서 조립
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% embed url="https://hyune.gitbook.io/hyune-wiki/mentor-and-code-reviewer/code-review-history/vs" %}
 
-###
+
 
 ### java spring init 설명
 
