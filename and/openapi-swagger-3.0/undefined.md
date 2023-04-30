@@ -44,7 +44,7 @@ swagger 를 작성하는 프로젝트의 경우 보통 url 전달로 API 명세�
 
 * 필요시 yml 전환 가능
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Reference
 
