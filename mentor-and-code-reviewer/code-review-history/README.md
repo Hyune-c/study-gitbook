@@ -6,16 +6,16 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 
 ### JPA entity 의 식별자 기본 생성 전략 선택
 
-{% content-ref url="../../study/framework-and-library/jpa/generatedvalue-strategy.md" %}
-[generatedvalue-strategy.md](../../study/framework-and-library/jpa/generatedvalue-strategy.md)
+{% content-ref url="../../framework-and-library/spring/generatedvalue-strategy.md" %}
+[generatedvalue-strategy.md](../../framework-and-library/spring/generatedvalue-strategy.md)
 {% endcontent-ref %}
 
 
 
 ### Entity 의 field type 은 무엇이 적절한가?
 
-{% content-ref url="../../study/framework-and-library/jpa/entity-field-type.md" %}
-[entity-field-type.md](../../study/framework-and-library/jpa/entity-field-type.md)
+{% content-ref url="../../framework-and-library/spring/entity-field-type.md" %}
+[entity-field-type.md](../../framework-and-library/spring/entity-field-type.md)
 {% endcontent-ref %}
 
 
@@ -31,24 +31,24 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 
 ### GET 메서드에 payload 를 사용한 것
 
-{% content-ref url="../../study/computer-science/web/rest-api/get-payload.md" %}
-[get-payload.md](../../study/computer-science/web/rest-api/get-payload.md)
+{% content-ref url="../../computer-science/web/rest-api/get-payload.md" %}
+[get-payload.md](../../computer-science/web/rest-api/get-payload.md)
 {% endcontent-ref %}
 
 
 
 ### Builder Pattern 사용
 
-{% content-ref url="../../study/computer-science/design-pattern/builder-pattern.md" %}
-[builder-pattern.md](../../study/computer-science/design-pattern/builder-pattern.md)
+{% content-ref url="../../computer-science/design-pattern/builder-pattern.md" %}
+[builder-pattern.md](../../computer-science/design-pattern/builder-pattern.md)
 {% endcontent-ref %}
 
 
 
 ### API 설계는 어떻게 해야 되는가?
 
-{% content-ref url="../../study/computer-science/web/rest-api/api.md" %}
-[api.md](../../study/computer-science/web/rest-api/api.md)
+{% content-ref url="../../computer-science/web/rest-api/api.md" %}
+[api.md](../../computer-science/web/rest-api/api.md)
 {% endcontent-ref %}
 
 
@@ -126,7 +126,7 @@ description: 진행했던 코드 리뷰 중 의미 있는 것들을 기록합니
 
 {% embed url="https://careerly.co.kr/" %}
 
-###
+
 
 ### 코드 리뷰
 
