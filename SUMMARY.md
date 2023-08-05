@@ -6,8 +6,10 @@
 
 * [Kotlin](and/kotlin/README.md)
   * [파일 조작하기](and/undefined.md)
-* [Network](and/network/README.md)
-  * [공인 ip 확인하기](ip.md)
+* [Infra](and/infra/README.md)
+  * [Lightsail](and/infra/lightsail/README.md)
+    * [인스턴스 구성 예제](and/infra/lightsail/undefined.md)
+  * [공인 ip 확인하기](and/infra/ip.md)
 * [Database](and/database/README.md)
   * [INSERT INTO SELECT SHARED LOCK(row LOCK)](and/database/insert-into-select-shared-lock-row-lock.md)
 * [API Document](and/api-document/README.md)
