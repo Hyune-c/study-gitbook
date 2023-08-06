@@ -31,8 +31,6 @@
 
 ## STUDY
 
-* [Test](study/test/README.md)
-  * [Test Doule](study/test/test-doule.md)
 * [Language](study/language/README.md)
   * [Java](language/java/README.md)
     * [Copy](language/java/copy.md)
@@ -89,6 +87,8 @@
     * [Builder Pattern](computer-science/design-pattern/builder-pattern.md)
   * [MSA](computer-science/msa.md)
   * [DDD](computer-science/ddd.md)
+* [Test](study/test/README.md)
+  * [Test Doule](study/test/test-doule.md)
 * [Book & Online Class](study/book-and-online-class/README.md)
   * [한 번에 끝내는 Spring 완.전.판 초격차 패키지 Online](book-and-online-class/spring-complete-package/README.md)
     * [AOP, Aspect Oriented Programming](book-and-online-class/spring-complete-package/aop.md)
