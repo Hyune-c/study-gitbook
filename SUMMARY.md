@@ -2,6 +2,10 @@
 
 * [Welcome](README.md)
 
+## Article
+
+* [Link](article/link.md)
+
 ## Mentor & Code Reviewer
 
 * [진행하기에 앞서..](mentor-and-code-reviewer/before-proceeding-with-the-code-review.md)
@@ -113,7 +117,3 @@
       * [4장 클래스와 인터페이스](legacy/study/book-and-online-class/effective-java/4.md)
   * [Webinar](legacy/study/webinar/README.md)
     * [요즘 힙한 스타트업의 DBDB DEEP한 이야기](legacy/study/webinar/dbdb-deep.md)
-
-***
-
-* [Link](link.md)
