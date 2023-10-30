@@ -4,7 +4,7 @@
 
 ## Article
 
-* [Link](article/link.md)
+* [Link](link.md)
 
 ## Mentor & Code Reviewer
 
