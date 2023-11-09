@@ -70,4 +70,8 @@
 
 {% embed url="https://www.yes24.com/Product/Goods/123182350" %}
 {% endtab %}
+
+{% tab title="Work" %}
+{% embed url="https://techblog.woowahan.com/14671/" %}
+{% endtab %}
 {% endtabs %}
