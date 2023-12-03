@@ -42,6 +42,10 @@
 
 {% embed url="https://techblog.woowahan.com/12720/" %}
 {% endtab %}
+
+{% tab title="Total" %}
+{% embed url="https://techblog.woowahan.com/2711/" %}
+{% endtab %}
 {% endtabs %}
 
 ## Test
