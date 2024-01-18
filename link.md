@@ -1,5 +1,17 @@
 # Link
 
+## Languge
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Kotlin" %}
+{% embed url="https://hyeon9mak.github.io/using-kotlin-scope-function-correctly/" %}
+{% endtab %}
+{% endtabs %}
+
 ## Spring
 
 {% tabs %}
