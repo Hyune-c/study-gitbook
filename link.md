@@ -1,5 +1,7 @@
 # Link
 
+##
+
 ## Languge
 
 {% tabs %}
@@ -33,6 +35,14 @@
 
 {% tab title="Redis" %}
 {% embed url="https://inpa.tistory.com/category/DBMS/Redis" %}
+
+{% embed url="https://bugoverdose.github.io/development/redis-set-basics/" %}
+
+{% embed url="https://bugoverdose.github.io/development/redis-hash-basics/" %}
+
+{% embed url="https://bugoverdose.github.io/development/redis-zset-basics/" %}
+
+{% embed url="https://bugoverdose.github.io/development/redis-ranking-system-with-zset/" %}
 {% endtab %}
 
 {% tab title="JPA" %}
