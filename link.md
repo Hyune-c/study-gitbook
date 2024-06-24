@@ -21,8 +21,8 @@
 
 {% endtab %}
 
-{% tab title="Batch" %}
-{% embed url="https://backtony.github.io/spring/2022-01-29-spring-batch-11/" %}
+{% tab title="AOP" %}
+{% embed url="https://jiwondev.tistory.com/152" %}
 {% endtab %}
 {% endtabs %}
 
