@@ -66,6 +66,10 @@
 {% tab title="Total" %}
 {% embed url="https://techblog.woowahan.com/2711/" %}
 {% endtab %}
+
+{% tab title="RESTful" %}
+{% embed url="https://opensource.zalando.com/restful-api-guidelines/" %}
+{% endtab %}
 {% endtabs %}
 
 ## Test
