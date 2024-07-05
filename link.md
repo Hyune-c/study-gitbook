@@ -61,6 +61,10 @@
 {% embed url="https://geminikims.medium.com/%EC%A7%80%EC%86%8D-%EC%84%B1%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95-97844c5dab63" %}
 
 {% embed url="https://techblog.woowahan.com/12720/" %}
+
+[https://youtu.be/g6Tg6\_qpIVc?si=oi5jUF6t51ktzIgu](https://youtu.be/g6Tg6\_qpIVc?si=oi5jUF6t51ktzIgu)
+
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Total" %}
