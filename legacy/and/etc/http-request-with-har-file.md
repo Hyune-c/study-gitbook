@@ -14,7 +14,7 @@ HAR File, HTTP Archive File
 
 * 영업 직원은 물론이고 CS로 들어오는 일반 사용자 건에도 대응할 수 있습니다.
 
-#### AWS에서도 이상 여부를 체크를 위해 사용되는 공식 요청 기록 중 하나입니다.
+#### AWS에서도 이상 여부 체크를 위해 사용되는 공식 요청 기록 중 하나입니다.
 
 {% embed url="https://aws.amazon.com/ko/premiumsupport/knowledge-center/support-case-browser-har-file/" %}
 
