@@ -39,15 +39,11 @@ HAR File, HTTP Archive File
 
 ## HAR 파일 분석하기 by 개발자
 
-#### 1. Chrome Extension 설치 & 실행
+#### 1. HAR 분석 도구를 통해 분석
 
-{% embed url="https://chromewebstore.google.com/detail/harjson-viewer/bghceahjdhjncoohgobeohgnmfnooibd" %}
+{% embed url="https://jam.dev/utilities/har-file-viewer" %}
 
-![](<../../../.gitbook/assets/image (14).png>)
-
-#### 2. HAR 파일을 드래그 앤 드랍
-
-![](<../../../.gitbook/assets/image (13).png>)
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ## 참고 자료
 
