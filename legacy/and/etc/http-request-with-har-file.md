@@ -41,7 +41,7 @@ HAR File, HTTP Archive File
 
 #### 1. Chrome Extension 설치 & 실행
 
-{% embed url="https://chrome.google.com/webstore/detail/http-archive-viewer/ebbdbdmhegaoooipfnjikefdpeoaidml/related?hl=ko" %}
+{% embed url="https://chromewebstore.google.com/detail/http-archive-viewer/ebbdbdmhegaoooipfnjikefdpeoaidml?hl=ko" %}
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
