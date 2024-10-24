@@ -31,7 +31,7 @@ HAR File, HTTP Archive File
 
 #### 2. 문제 상황 재현 후 HAR file 생성
 
-* **Save All As HAR with Content** 또는 **Export HAR...** 를 통해 생
+* **Save All As HAR with Content** 또는 **Export HAR...** 를 통해 생성
 
 ![](<../../../.gitbook/assets/image (16).png>)
 
