@@ -18,7 +18,7 @@ HAR File, HTTP Archive File
 
 {% embed url="https://aws.amazon.com/ko/premiumsupport/knowledge-center/support-case-browser-har-file/" %}
 
-## HAR 파일 만들기 by 사용자&#x20;
+## HAR 파일 만들기 for 사용자&#x20;
 
 #### 1. 개발자 도구 실행 후 준비
 
@@ -37,7 +37,7 @@ HAR File, HTTP Archive File
 
 #### 3. 생성된 HAR 파일을 전달
 
-## HAR 파일 분석하기 by 개발자
+## HAR 파일 분석하기 for 개발자
 
 #### 1. HAR 분석 도구를 통해 분석
 
